@@ -10,8 +10,8 @@ Primary URLs:
 - Privacy Policy: https://plena.meroviq.com/privacy
 - Open Source Licenses: https://plena.meroviq.com/licenses
 
-Current Privacy Policy version: 1.1
-Privacy Policy effective date: October 21, 2026
+Current Privacy Policy version: 1.2
+Privacy Policy effective date: October 24, 2026
 Terms / Licenses version: 1.0
 Original legal effective date: September 20, 2026
 
