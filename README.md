@@ -1,6 +1,6 @@
 # Plena Legal Site
 
-Static legal pages for Plena by Meroviq.
+Static legal pages for Plena by Meroviq.\n\nLanguages: Korean, English, Spanish
 
 Public domain:
 https://plena.meroviq.com
