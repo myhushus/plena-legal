@@ -1,0 +1,4440 @@
+{
+  "appHead": "35596b94258d3d7c6b6e628685fc4c53a178656c",
+  "auditDate": "2026-10-26",
+  "pubspecLockSha256": "80d1f9a020e2d3217c8d8837d2fe302e629a1faba9fbcfd05b2635f714b71f9c",
+  "version": "1.1",
+  "records": [
+    {
+      "ecosystem": "Dart",
+      "name": "android_file_picker",
+      "version": "2.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab.txt",
+          "sha256": "12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab",
+          "source": "android_file_picker-2.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "args",
+      "version": "2.7.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791.txt",
+          "sha256": "dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791",
+          "source": "args-2.7.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "async",
+      "version": "2.13.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73.txt",
+          "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+          "source": "async-2.13.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "characters",
+      "version": "1.4.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744.txt",
+          "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744",
+          "source": "characters-1.4.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "clock",
+      "version": "1.1.2",
+      "directness": "transitive",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd.txt",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "source": "clock-1.1.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "code_assets",
+      "version": "1.2.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/21ae23b0b9ff67a2dc75ab085d1e8db8ac548c5faf370af17f28dd2ef3b52b7b.txt",
+          "sha256": "21ae23b0b9ff67a2dc75ab085d1e8db8ac548c5faf370af17f28dd2ef3b52b7b",
+          "source": "code_assets-1.2.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "collection",
+      "version": "1.19.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73.txt",
+          "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+          "source": "collection-1.19.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "cross_file",
+      "version": "0.3.5+5",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "cross_file-0.3.5+5/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "crypto",
+      "version": "3.0.7",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888.txt",
+          "sha256": "ad6a71997da90924b2cfb1fb47ec46537f70faf469efe016168794ae45ed6888",
+          "source": "crypto-3.0.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "cryptography",
+      "version": "2.9.0",
+      "directness": "direct",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/59899c6091b540582ed617e8eeaac4919dc985ccfc35459ee9752b699be5205b.txt",
+          "sha256": "59899c6091b540582ed617e8eeaac4919dc985ccfc35459ee9752b699be5205b",
+          "source": "cryptography-2.9.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "csslib",
+      "version": "1.0.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791.txt",
+          "sha256": "dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791",
+          "source": "csslib-1.0.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "cupertino_icons",
+      "version": "1.0.9",
+      "directness": "direct",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/310d6ab6483280280c9db122bded0a63c09558bc5743720f61dbcbb494db370a.txt",
+          "sha256": "310d6ab6483280280c9db122bded0a63c09558bc5743720f61dbcbb494db370a",
+          "source": "cupertino_icons-1.0.9/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "dbus",
+      "version": "0.7.15",
+      "directness": "transitive",
+      "licenses": [
+        "MPL-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5.txt",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "source": "dbus-0.7.15/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "equatable",
+      "version": "2.1.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/07720a43bdabe44206067a2bffd1089dcdc4cc5b0b7f8169308c2f8ba6ad0c86.txt",
+          "sha256": "07720a43bdabe44206067a2bffd1089dcdc4cc5b0b7f8169308c2f8ba6ad0c86",
+          "source": "equatable-2.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "ffi",
+      "version": "2.2.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744.txt",
+          "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744",
+          "source": "ffi-2.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "ffi_leak_tracker",
+      "version": "0.1.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/332f290333e64ed007b4f59aeeebd8fd3ceaadfbfa226a6cf2a3ab1583281624.txt",
+          "sha256": "332f290333e64ed007b4f59aeeebd8fd3ceaadfbfa226a6cf2a3ab1583281624",
+          "source": "ffi_leak_tracker-0.1.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "file",
+      "version": "7.0.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/f6df86b1412172537273e8e80ee2fb8a66aa7307ce0b39ea5ddab47ca41b8c49.txt",
+          "sha256": "f6df86b1412172537273e8e80ee2fb8a66aa7307ce0b39ea5ddab47ca41b8c49",
+          "source": "file-7.0.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "file_picker",
+      "version": "13.1.0",
+      "directness": "direct",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/6278994817bd65fa32404e53c3a62a09d824d3f9a71f7fadcaca3e4f02641d66.txt",
+          "sha256": "6278994817bd65fa32404e53c3a62a09d824d3f9a71f7fadcaca3e4f02641d66",
+          "source": "file_picker-13.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "file_picker_darwin",
+      "version": "2.1.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab.txt",
+          "sha256": "12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab",
+          "source": "file_picker_darwin-2.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "file_picker_linux",
+      "version": "2.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab.txt",
+          "sha256": "12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab",
+          "source": "file_picker_linux-2.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "file_picker_platform_interface",
+      "version": "4.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab.txt",
+          "sha256": "12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab",
+          "source": "file_picker_platform_interface-4.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "file_picker_web",
+      "version": "4.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab.txt",
+          "sha256": "12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab",
+          "source": "file_picker_web-4.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "fixnum",
+      "version": "1.1.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ff0b91d4f3c32b25cb6ec84985e8da89b0ba2a2b2f7eef353cda5e5423a20390.txt",
+          "sha256": "ff0b91d4f3c32b25cb6ec84985e8da89b0ba2a2b2f7eef353cda5e5423a20390",
+          "source": "fixnum-1.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter",
+      "version": "3.44.0",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20.txt",
+          "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
+          "source": "flutter-0.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_local_notifications",
+      "version": "22.3.1",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/d6885e4633e08ec3a52cd90299b97831444d487f16721e5d092289bcfedfc511.txt",
+          "sha256": "d6885e4633e08ec3a52cd90299b97831444d487f16721e5d092289bcfedfc511",
+          "source": "flutter_local_notifications-22.3.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_local_notifications_linux",
+      "version": "8.0.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/d6885e4633e08ec3a52cd90299b97831444d487f16721e5d092289bcfedfc511.txt",
+          "sha256": "d6885e4633e08ec3a52cd90299b97831444d487f16721e5d092289bcfedfc511",
+          "source": "flutter_local_notifications_linux-8.0.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_local_notifications_platform_interface",
+      "version": "12.2.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/2d77e2f3421858873865cf0bb0afd2fcf6f5ad8df9bdab10a7d7503bcf8a1c44.txt",
+          "sha256": "2d77e2f3421858873865cf0bb0afd2fcf6f5ad8df9bdab10a7d7503bcf8a1c44",
+          "source": "flutter_local_notifications_platform_interface-12.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_local_notifications_web",
+      "version": "1.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/0573f66054d8a6a7c64be9378a07586516d533122812c4c2160dd398adc50c0c.txt",
+          "sha256": "0573f66054d8a6a7c64be9378a07586516d533122812c4c2160dd398adc50c0c",
+          "source": "flutter_local_notifications_web-1.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_local_notifications_windows",
+      "version": "3.1.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/bfe6db9a3430334378d729fb52a0d29972383a41e09a1d2e41f73890dcf508ca.txt",
+          "sha256": "bfe6db9a3430334378d729fb52a0d29972383a41e09a1d2e41f73890dcf508ca",
+          "source": "flutter_local_notifications_windows-3.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_localizations",
+      "version": "SDK",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause (Flutter SDK)"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20.txt",
+          "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
+          "source": "Flutter SDK LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_plugin_android_lifecycle",
+      "version": "2.0.35",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "flutter_plugin_android_lifecycle-2.0.35/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_secure_storage",
+      "version": "11.2.0",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa.txt",
+          "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa",
+          "source": "flutter_secure_storage-11.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_secure_storage_darwin",
+      "version": "0.4.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3754c516086c62307896512b68024837bee5d2bea42a55cfd03f7448b92b06c8.txt",
+          "sha256": "3754c516086c62307896512b68024837bee5d2bea42a55cfd03f7448b92b06c8",
+          "source": "flutter_secure_storage_darwin-0.4.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_secure_storage_linux",
+      "version": "3.0.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa.txt",
+          "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa",
+          "source": "flutter_secure_storage_linux-3.0.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_secure_storage_platform_interface",
+      "version": "2.1.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa.txt",
+          "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa",
+          "source": "flutter_secure_storage_platform_interface-2.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_secure_storage_web",
+      "version": "2.1.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa.txt",
+          "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa",
+          "source": "flutter_secure_storage_web-2.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_secure_storage_windows",
+      "version": "4.2.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa.txt",
+          "sha256": "55dafb084270616f95b9bea53654adda8bdcad95c022a83c4cf8769073f829fa",
+          "source": "flutter_secure_storage_windows-4.2.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_timezone",
+      "version": "5.1.0",
+      "directness": "direct",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1.txt",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "source": "flutter_timezone-5.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "flutter_web_plugins",
+      "version": "SDK",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause (Flutter SDK)"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20.txt",
+          "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
+          "source": "Flutter SDK LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geoclue",
+      "version": "0.1.1",
+      "directness": "transitive",
+      "licenses": [
+        "MPL-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5.txt",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "source": "geoclue-0.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geocoding",
+      "version": "5.0.0",
+      "directness": "direct",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geocoding-5.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geocoding_android",
+      "version": "5.1.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geocoding_android-5.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geocoding_darwin",
+      "version": "1.0.3",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/65a603f544989f5cff639d5c55f56e781796e5e1b2f8546a7cb4cb26763133f3.txt",
+          "sha256": "65a603f544989f5cff639d5c55f56e781796e5e1b2f8546a7cb4cb26763133f3",
+          "source": "geocoding_darwin-1.0.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geocoding_platform_interface",
+      "version": "5.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geocoding_platform_interface-5.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geolocator",
+      "version": "14.0.3",
+      "directness": "direct",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geolocator-14.0.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geolocator_android",
+      "version": "5.0.3",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geolocator_android-5.0.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geolocator_apple",
+      "version": "2.3.14",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geolocator_apple-2.3.14/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geolocator_linux",
+      "version": "0.2.6",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geolocator_linux-0.2.6/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geolocator_platform_interface",
+      "version": "4.3.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geolocator_platform_interface-4.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geolocator_web",
+      "version": "4.1.4",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geolocator_web-4.1.4/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "geolocator_windows",
+      "version": "0.2.5",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844.txt",
+          "sha256": "9a4d631b14df96d4886d95164878aa3c3d06ea0843a5da771fe2536f8dc5c844",
+          "source": "geolocator_windows-0.2.5/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "google_maps",
+      "version": "8.3.0",
+      "directness": "transitive",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec.txt",
+          "sha256": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec",
+          "source": "google_maps-8.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "google_maps_flutter",
+      "version": "2.18.1",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "google_maps_flutter-2.18.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "google_maps_flutter_android",
+      "version": "2.21.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "google_maps_flutter_android-2.21.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "google_maps_flutter_ios",
+      "version": "2.18.7",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "google_maps_flutter_ios-2.18.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "google_maps_flutter_ios_sdk10",
+      "version": "2.19.0",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "google_maps_flutter_ios_sdk10-2.19.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "google_maps_flutter_platform_interface",
+      "version": "2.17.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "google_maps_flutter_platform_interface-2.17.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "google_maps_flutter_web",
+      "version": "0.6.5",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause",
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/08f3631d4cc140b999f464372e345ede829025bb3d2daedef729090fd154a00f.txt",
+          "sha256": "08f3631d4cc140b999f464372e345ede829025bb3d2daedef729090fd154a00f",
+          "source": "google_maps_flutter_web-0.6.5/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "gsettings",
+      "version": "0.2.8",
+      "directness": "transitive",
+      "licenses": [
+        "MPL-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5.txt",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "source": "gsettings-0.2.8/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "home_widget",
+      "version": "0.10.0",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/8d6b4ec8cc00da3eceef4c23f2ef0f2dd1908763827e0ff0f8e92d917d32788d.txt",
+          "sha256": "8d6b4ec8cc00da3eceef4c23f2ef0f2dd1908763827e0ff0f8e92d917d32788d",
+          "source": "home_widget-0.10.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "hooks",
+      "version": "2.0.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/21ae23b0b9ff67a2dc75ab085d1e8db8ac548c5faf370af17f28dd2ef3b52b7b.txt",
+          "sha256": "21ae23b0b9ff67a2dc75ab085d1e8db8ac548c5faf370af17f28dd2ef3b52b7b",
+          "source": "hooks-2.0.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "html",
+      "version": "0.15.7",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/6ed8a26ed0f30589422f86356eed53bb6dacffc3e2fd4feddc944c4331945151.txt",
+          "sha256": "6ed8a26ed0f30589422f86356eed53bb6dacffc3e2fd4feddc944c4331945151",
+          "source": "html-0.15.7/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "http",
+      "version": "1.6.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16.txt",
+          "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+          "source": "http-1.6.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "http_parser",
+      "version": "4.1.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16.txt",
+          "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+          "source": "http_parser-4.1.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "in_app_purchase",
+      "version": "3.3.1",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "in_app_purchase-3.3.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "in_app_purchase_android",
+      "version": "0.5.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "in_app_purchase_android-0.5.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "in_app_purchase_platform_interface",
+      "version": "1.4.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "in_app_purchase_platform_interface-1.4.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "in_app_purchase_storekit",
+      "version": "0.4.13",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "in_app_purchase_storekit-0.4.13/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "intl",
+      "version": "0.20.2",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/7e124af6a556f045cb3a20cafbdaa31602ac2c82cbcb3c3b15faaaf514b06028.txt",
+          "sha256": "7e124af6a556f045cb3a20cafbdaa31602ac2c82cbcb3c3b15faaaf514b06028",
+          "source": "intl-0.20.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "jni",
+      "version": "1.0.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6.txt",
+          "sha256": "08a004aa8956c3cf3b24f7f69c966247233953e18e6afaa61191ea47b7eb70f6",
+          "source": "jni-1.0.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "jni_flutter",
+      "version": "1.0.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/b1fcb475d67817411f335ac92872507011e574c4cb29cfdaaf7707b75641932c.txt",
+          "sha256": "b1fcb475d67817411f335ac92872507011e574c4cb29cfdaaf7707b75641932c",
+          "source": "jni_flutter-1.0.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "jni_util",
+      "version": "1.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/b1fcb475d67817411f335ac92872507011e574c4cb29cfdaaf7707b75641932c.txt",
+          "sha256": "b1fcb475d67817411f335ac92872507011e574c4cb29cfdaaf7707b75641932c",
+          "source": "jni_util-1.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "json_annotation",
+      "version": "4.12.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/143839f62c9b7f88143ea9f688361c27050888acde7696b34e04414bd254fafc.txt",
+          "sha256": "143839f62c9b7f88143ea9f688361c27050888acde7696b34e04414bd254fafc",
+          "source": "json_annotation-4.12.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "logging",
+      "version": "1.3.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791.txt",
+          "sha256": "dfb09c74e29386cd3e2719f32d4995d59526179753931d31840757c77fbf2791",
+          "source": "logging-1.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "material_color_utilities",
+      "version": "0.13.0",
+      "directness": "transitive",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/d103f246ef4c18dab8af0c1dcf6a8af884e5cff554da7261a48ac43c17d98f2e.txt",
+          "sha256": "d103f246ef4c18dab8af0c1dcf6a8af884e5cff554da7261a48ac43c17d98f2e",
+          "source": "material_color_utilities-0.13.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "meta",
+      "version": "1.18.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a.txt",
+          "sha256": "b71519245009a3b8f126196a5408ec031e216e8e0d985085958c6543f82a8a2a",
+          "source": "meta-1.18.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "mime",
+      "version": "2.1.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73.txt",
+          "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+          "source": "mime-2.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "objective_c",
+      "version": "9.5.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1cda25a8de6880c5338de0b4a06ee89e8537c213eb1379c16a4c035bfd198b5c.txt",
+          "sha256": "1cda25a8de6880c5338de0b4a06ee89e8537c213eb1379c16a4c035bfd198b5c",
+          "source": "objective_c-9.5.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "package_config",
+      "version": "3.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744.txt",
+          "sha256": "0371d1da6a57fb791db29d29b95333429205f51f3cb2eb3a0c12d91838a38744",
+          "source": "package_config-3.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "package_info_plus",
+      "version": "10.2.1",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c.txt",
+          "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c",
+          "source": "package_info_plus-10.2.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "package_info_plus_platform_interface",
+      "version": "4.1.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c.txt",
+          "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c",
+          "source": "package_info_plus_platform_interface-4.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "path",
+      "version": "1.9.1",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16.txt",
+          "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+          "source": "path-1.9.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "path_provider",
+      "version": "2.1.6",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "path_provider-2.1.6/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "path_provider_android",
+      "version": "2.3.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "path_provider_android-2.3.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "path_provider_foundation",
+      "version": "2.6.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "path_provider_foundation-2.6.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "path_provider_linux",
+      "version": "2.2.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "path_provider_linux-2.2.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "path_provider_platform_interface",
+      "version": "2.1.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "path_provider_platform_interface-2.1.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "path_provider_windows",
+      "version": "2.3.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9.txt",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9",
+          "source": "path_provider_windows-2.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "petitparser",
+      "version": "7.0.2",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/d2e8ffdbe89acbc10d5d1f2b03e7dbddf0a9f1742e809176682b62ef3d573b3e.txt",
+          "sha256": "d2e8ffdbe89acbc10d5d1f2b03e7dbddf0a9f1742e809176682b62ef3d573b3e",
+          "source": "petitparser-7.0.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "platform",
+      "version": "3.2.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/143839f62c9b7f88143ea9f688361c27050888acde7696b34e04414bd254fafc.txt",
+          "sha256": "143839f62c9b7f88143ea9f688361c27050888acde7696b34e04414bd254fafc",
+          "source": "platform-3.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "plugin_platform_interface",
+      "version": "2.1.8",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9.txt",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9",
+          "source": "plugin_platform_interface-2.1.8/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "pub_semver",
+      "version": "2.2.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16.txt",
+          "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+          "source": "pub_semver-2.2.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "record_use",
+      "version": "0.6.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1cda25a8de6880c5338de0b4a06ee89e8537c213eb1379c16a4c035bfd198b5c.txt",
+          "sha256": "1cda25a8de6880c5338de0b4a06ee89e8537c213eb1379c16a4c035bfd198b5c",
+          "source": "record_use-0.6.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "sanitize_html",
+      "version": "2.2.0",
+      "directness": "transitive",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd.txt",
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "source": "sanitize_html-2.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "share_plus",
+      "version": "13.3.0",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/eb9741a672906ebd01fd9b3bef38f6c82eff250e91149cf404539ee7981079fd.txt",
+          "sha256": "eb9741a672906ebd01fd9b3bef38f6c82eff250e91149cf404539ee7981079fd",
+          "source": "share_plus-13.3.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "share_plus_platform_interface",
+      "version": "7.2.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c.txt",
+          "sha256": "3b38d48befd0af70b892e13d10c9e34679416c24a9277f962629951c64d71f4c",
+          "source": "share_plus_platform_interface-7.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "sky_engine",
+      "version": "SDK",
+      "directness": "transitive",
+      "licenses": [
+        "Composite Flutter engine third-party notices; not a single SPDX license"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369.txt",
+          "sha256": "82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369",
+          "source": "sky_engine-0.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "source_span",
+      "version": "1.10.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16.txt",
+          "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+          "source": "source_span-1.10.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "speech_to_text",
+      "version": "7.5.0",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/93c167d88e0073150ec077ce1a04052032e4a811a589b724a6a9bb157ac75152.txt",
+          "sha256": "93c167d88e0073150ec077ce1a04052032e4a811a589b724a6a9bb157ac75152",
+          "source": "speech_to_text-7.5.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "speech_to_text_platform_interface",
+      "version": "2.5.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/93c167d88e0073150ec077ce1a04052032e4a811a589b724a6a9bb157ac75152.txt",
+          "sha256": "93c167d88e0073150ec077ce1a04052032e4a811a589b724a6a9bb157ac75152",
+          "source": "speech_to_text_platform_interface-2.5.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "speech_to_text_windows",
+      "version": "1.0.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/d909ce2bb1e39a78df3beedc414cd9fe192fded499db2929d16a26a3854183ae.txt",
+          "sha256": "d909ce2bb1e39a78df3beedc414cd9fe192fded499db2929d16a26a3854183ae",
+          "source": "speech_to_text_windows-1.0.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "sqflite",
+      "version": "2.4.4",
+      "directness": "direct",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da.txt",
+          "sha256": "c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da",
+          "source": "sqflite-2.4.4/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "sqflite_android",
+      "version": "2.4.4",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da.txt",
+          "sha256": "c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da",
+          "source": "sqflite_android-2.4.4/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "sqflite_common",
+      "version": "2.5.13",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da.txt",
+          "sha256": "c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da",
+          "source": "sqflite_common-2.5.13/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "sqflite_darwin",
+      "version": "2.4.4",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da.txt",
+          "sha256": "c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da",
+          "source": "sqflite_darwin-2.4.4/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "sqflite_platform_interface",
+      "version": "2.4.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da.txt",
+          "sha256": "c81f9454cf3107c116bc3c1fd22b7d751523a2b11e17cf90c0db3327d3c9e0da",
+          "source": "sqflite_platform_interface-2.4.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "stream_transform",
+      "version": "2.1.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ea97a7558a7bd7cee4e2355f7529e3cbebb0dcbb546ddb9a90f10c9eb6b08da5.txt",
+          "sha256": "ea97a7558a7bd7cee4e2355f7529e3cbebb0dcbb546ddb9a90f10c9eb6b08da5",
+          "source": "stream_transform-2.1.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "string_scanner",
+      "version": "1.4.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16.txt",
+          "sha256": "3c32b53167c7dae9190c38dab5dd9fe1789c53623ebc7d1babcb29914c5b3f16",
+          "source": "string_scanner-1.4.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "synchronized",
+      "version": "3.4.2",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/6d07c6bb60afb906049d507e19fcc4c6b59e35c0dd0f8a7302e87b3fb0576900.txt",
+          "sha256": "6d07c6bb60afb906049d507e19fcc4c6b59e35c0dd0f8a7302e87b3fb0576900",
+          "source": "synchronized-3.4.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "term_glyph",
+      "version": "1.2.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ea97a7558a7bd7cee4e2355f7529e3cbebb0dcbb546ddb9a90f10c9eb6b08da5.txt",
+          "sha256": "ea97a7558a7bd7cee4e2355f7529e3cbebb0dcbb546ddb9a90f10c9eb6b08da5",
+          "source": "term_glyph-1.2.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "timezone",
+      "version": "0.11.1",
+      "directness": "direct",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/d8f160d6dcdd4ec77522646d04c139d89d55910d6852792d2b441625763c012f.txt",
+          "sha256": "d8f160d6dcdd4ec77522646d04c139d89d55910d6852792d2b441625763c012f",
+          "source": "timezone-0.11.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "typed_data",
+      "version": "1.4.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73.txt",
+          "sha256": "ff15faa32a2e638107b7789592b14426162a75ba620044ee2340a20ec6ce5e73",
+          "source": "typed_data-1.4.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher",
+      "version": "6.3.2",
+      "directness": "direct",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9.txt",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9",
+          "source": "url_launcher-6.3.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher_android",
+      "version": "6.3.33",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "url_launcher_android-6.3.33/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher_ios",
+      "version": "6.4.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "url_launcher_ios-6.4.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher_linux",
+      "version": "3.2.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "url_launcher_linux-3.2.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher_macos",
+      "version": "3.2.6",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "url_launcher_macos-3.2.6/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher_platform_interface",
+      "version": "2.3.2",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9.txt",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9",
+          "source": "url_launcher_platform_interface-2.3.2/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher_web",
+      "version": "2.4.3",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "url_launcher_web-2.4.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "url_launcher_windows",
+      "version": "3.1.6",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d.txt",
+          "sha256": "420f7739f169097f0aad1242045169cd643c8f1d94e62866fad265ae4c369b7d",
+          "source": "url_launcher_windows-3.1.6/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "uuid",
+      "version": "4.6.0",
+      "directness": "direct",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/ad3e5523e51004e94ba9ce728805b1b4242dbccdb65e62b523800e35a8a7cfdc.txt",
+          "sha256": "ad3e5523e51004e94ba9ce728805b1b4242dbccdb65e62b523800e35a8a7cfdc",
+          "source": "uuid-4.6.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "vector_math",
+      "version": "2.2.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/b5d856a1e27e9ebea4957fc3526f1c65782a04894b113c6b3b0fb1321dbdec55.txt",
+          "sha256": "b5d856a1e27e9ebea4957fc3526f1c65782a04894b113c6b3b0fb1321dbdec55",
+          "source": "vector_math-2.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "web",
+      "version": "1.1.1",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/aa913ff50d7542eb8cc35b9f48a80928ac6819ba9057f85d424655e3e8dc271c.txt",
+          "sha256": "aa913ff50d7542eb8cc35b9f48a80928ac6819ba9057f85d424655e3e8dc271c",
+          "source": "web-1.1.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "win32",
+      "version": "6.4.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/87ef8bccdd619f2345ba5b9026cf1d6cccb305e36ab83849a8a3af9293abde7e.txt",
+          "sha256": "87ef8bccdd619f2345ba5b9026cf1d6cccb305e36ab83849a8a3af9293abde7e",
+          "source": "win32-6.4.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "windows_file_picker",
+      "version": "2.0.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab.txt",
+          "sha256": "12f7222de745bab3710ba88b59f33484ca423aa5e1deac9e56ed946706d5abab",
+          "source": "windows_file_picker-2.0.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "workmanager",
+      "version": "0.10.10",
+      "directness": "direct",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/6d84f32d46fd394cb0bdba22b79b02445d8d33f9bbd134c25ac7f8c9a0aa79d5.txt",
+          "sha256": "6d84f32d46fd394cb0bdba22b79b02445d8d33f9bbd134c25ac7f8c9a0aa79d5",
+          "source": "workmanager-0.10.10/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "workmanager_android",
+      "version": "0.10.9",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1f5154d475922d6c1537bdf82ab083826bf407622132ab8fd28ab213becbf840.txt",
+          "sha256": "1f5154d475922d6c1537bdf82ab083826bf407622132ab8fd28ab213becbf840",
+          "source": "workmanager_android-0.10.9/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "workmanager_apple",
+      "version": "0.9.11",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1f5154d475922d6c1537bdf82ab083826bf407622132ab8fd28ab213becbf840.txt",
+          "sha256": "1f5154d475922d6c1537bdf82ab083826bf407622132ab8fd28ab213becbf840",
+          "source": "workmanager_apple-0.9.11/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "workmanager_linux",
+      "version": "0.1.1+1",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/b5bfdcbfc240c70123d71d7578c814fc41a609dad93ff69ca42b3e1168b2a199.txt",
+          "sha256": "b5bfdcbfc240c70123d71d7578c814fc41a609dad93ff69ca42b3e1168b2a199",
+          "source": "workmanager_linux-0.1.1+1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "workmanager_platform_interface",
+      "version": "0.10.5",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1f5154d475922d6c1537bdf82ab083826bf407622132ab8fd28ab213becbf840.txt",
+          "sha256": "1f5154d475922d6c1537bdf82ab083826bf407622132ab8fd28ab213becbf840",
+          "source": "workmanager_platform_interface-0.10.5/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "workmanager_web",
+      "version": "0.2.0",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/b5bfdcbfc240c70123d71d7578c814fc41a609dad93ff69ca42b3e1168b2a199.txt",
+          "sha256": "b5bfdcbfc240c70123d71d7578c814fc41a609dad93ff69ca42b3e1168b2a199",
+          "source": "workmanager_web-0.2.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "xdg_directories",
+      "version": "1.1.0",
+      "directness": "transitive",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9.txt",
+          "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9",
+          "source": "xdg_directories-1.1.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "xml",
+      "version": "7.0.1",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/0be767174b97278f17da4923a74169e8645631f03ea3d8482ec3523c9b1a0dd3.txt",
+          "sha256": "0be767174b97278f17da4923a74169e8645631f03ea3d8482ec3523c9b1a0dd3",
+          "source": "xml-7.0.1/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Dart",
+      "name": "yaml",
+      "version": "3.1.4",
+      "directness": "transitive",
+      "licenses": [
+        "MIT"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/d47b93335401b052d79a2f5a3710e4cf7b5aed782faedf84d40fbdd6eb934ec7.txt",
+          "sha256": "d47b93335401b052d79a2f5a3710e4cf7b5aed782faedf84d40fbdd6eb934ec7",
+          "source": "yaml-3.1.4/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib",
+      "version": "2.3.20",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/c83c02d9a7e2e954730491c33c2f1dc03c27662e27b566ec2b44d2d018639b98.txt",
+          "sha256": "c83c02d9a7e2e954730491c33c2f1dc03c27662e27b566ec2b44d2d018639b98",
+          "source": "Maven POM org.jetbrains.kotlin/kotlin-stdlib/2.3.20/d7c1e59f9fe84d76ea97bbc2b23c0c23bb81c24c/kotlin-stdlib-2.3.20.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains:annotations",
+      "version": "23.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c.txt",
+          "sha256": "c9490f655132328df2cfbcfdf743f53fc3916d6c1d10437175a6ca6e3a67771c",
+          "source": "Maven POM org.jetbrains/annotations/23.0.0/deb853be3c9e05ed99fbbf83e49d349d08a6d10e/annotations-23.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+      "version": "2.3.10",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/95a63c5b2752fd65af8d8c11d3a9e2b28b508cbbc3eb3c5caca3962f43c5145e.txt",
+          "sha256": "95a63c5b2752fd65af8d8c11d3a9e2b28b508cbbc3eb3c5caca3962f43c5145e",
+          "source": "Maven POM org.jetbrains.kotlin/kotlin-stdlib-jdk8/2.3.10/aedc1de020089aa871df07ac019700727187c0fa/kotlin-stdlib-jdk8-2.3.10.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-jdk7",
+      "version": "2.3.10",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/a5a35b038bdeab9e4b4815036f996ee3743963ac4e3eca162c6385ba824b6382.txt",
+          "sha256": "a5a35b038bdeab9e4b4815036f996ee3743963ac4e3eca162c6385ba824b6382",
+          "source": "Maven POM org.jetbrains.kotlin/kotlin-stdlib-jdk7/2.3.10/3a261b9ce418c10418205291a8fcf6e3b9ea0c64/kotlin-stdlib-jdk7-2.3.10.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlin:kotlin-stdlib-common",
+      "version": "2.3.20",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/fd7b63edf6f7d6eaebc16a18560bbb928b3342561ea5c9d1f769198b0fe9b988.txt",
+          "sha256": "fd7b63edf6f7d6eaebc16a18560bbb928b3342561ea5c9d1f769198b0fe9b988",
+          "source": "Maven POM org.jetbrains.kotlin/kotlin-stdlib-common/2.3.20/887a086079549d0178b5a2dc3bbf83eb56ce97a5/kotlin-stdlib-common-2.3.20.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.appcompat:appcompat",
+      "version": "1.7.1",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/1f79910cc20de198acf3867b1e93f9ed59ddb643585b2e9c28ee55518af1bc00.txt",
+          "sha256": "1f79910cc20de198acf3867b1e93f9ed59ddb643585b2e9c28ee55518af1bc00",
+          "source": "Maven POM androidx.appcompat/appcompat/1.7.1/b03a9adbcce3c54f15e0d0be60c7afe4d0060870/appcompat-1.7.1.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.activity:activity",
+      "version": "1.9.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/09f2c38bf03a476f69edd798e8c3e0f391cb6ce58b1fc9e28ab7552285365cf0.txt",
+          "sha256": "09f2c38bf03a476f69edd798e8c3e0f391cb6ce58b1fc9e28ab7552285365cf0",
+          "source": "Maven POM androidx.activity/activity/1.9.0/d76679d7ef63e31de7f336a314e8344d040414aa/activity-1.9.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.annotation:annotation",
+      "version": "1.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/880f7bf4b35d060746cbef319d4a052b4bd826bb71b40500e55319721ffa4e76.txt",
+          "sha256": "880f7bf4b35d060746cbef319d4a052b4bd826bb71b40500e55319721ffa4e76",
+          "source": "Maven POM androidx.annotation/annotation/1.10.0/5c94600349507212aa9caf9f173348e7629db184/annotation-1.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.annotation:annotation-jvm",
+      "version": "1.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/5eece0903b4810aa1da85414dc4c2746046d878a543aa12dd4f1fe74171f7506.txt",
+          "sha256": "5eece0903b4810aa1da85414dc4c2746046d878a543aa12dd4f1fe74171f7506",
+          "source": "Maven POM androidx.annotation/annotation-jvm/1.10.0/5bc0942d5f2e5d5b34799e60f29aa657b281261c/annotation-jvm-1.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.collection:collection",
+      "version": "1.4.4",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/5850a06a1c8b6381c28664d9dcaab52803e46a060887b2f50dca17a3edf75c64.txt",
+          "sha256": "5850a06a1c8b6381c28664d9dcaab52803e46a060887b2f50dca17a3edf75c64",
+          "source": "Maven POM androidx.collection/collection/1.4.4/54b8f99e4b09aff3bba5e55e896a9e956082e88a/collection-1.4.4.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.collection:collection-jvm",
+      "version": "1.4.4",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/fcf28f558dff79164f0b0810dfea9fd6070b67c2702422d721335627aaa42b00.txt",
+          "sha256": "fcf28f558dff79164f0b0810dfea9fd6070b67c2702422d721335627aaa42b00",
+          "source": "Maven POM androidx.collection/collection-jvm/1.4.4/f3b6a5f878279e9add14a01e7a9ca6272d93f72d/collection-jvm-1.4.4.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.collection:collection-ktx",
+      "version": "1.4.4",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/5626665b063c033acbb950312f7434a4213e9285308767c6c51e94007a95294e.txt",
+          "sha256": "5626665b063c033acbb950312f7434a4213e9285308767c6c51e94007a95294e",
+          "source": "Maven POM androidx.collection/collection-ktx/1.4.4/6df3edc10a4b819c6e4bb9422c4bfcc35d09a1cc/collection-ktx-1.4.4.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.core:core",
+      "version": "1.18.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/57d644ebb37d309ad959d740157d8e8424e273b9c672842e4f4c758edc6d30e7.txt",
+          "sha256": "57d644ebb37d309ad959d740157d8e8424e273b9c672842e4f4c758edc6d30e7",
+          "source": "Maven POM androidx.core/core/1.18.0/a9ca3930f6d8aa5eab54c69b4dcd5567af2d32ca/core-1.18.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.annotation:annotation-experimental",
+      "version": "1.4.1",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/fe57b228417f4d7c677903dc61fb4a7cf993d603499de26d8d8113e477cc4f1b.txt",
+          "sha256": "fe57b228417f4d7c677903dc61fb4a7cf993d603499de26d8d8113e477cc4f1b",
+          "source": "Maven POM androidx.annotation/annotation-experimental/1.4.1/9e57caeeb7f02cecfe51c27d11352284b5161276/annotation-experimental-1.4.1.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.concurrent:concurrent-futures",
+      "version": "1.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6.txt",
+          "sha256": "748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6",
+          "source": "Maven POM androidx.concurrent/concurrent-futures/1.1.0/1a2c7df73a77c58e30bd0b20cbc23e9854515438/concurrent-futures-1.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.guava:listenablefuture",
+      "version": "1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a.txt",
+          "sha256": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a",
+          "source": "Maven POM com.google.guava/listenablefuture/1.0/3e71124fc28b44e29eaa31abbc267faef7ee7d40/listenablefuture-1.0.pom"
+        },
+        {
+          "file": "/licenses/texts/f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04.txt",
+          "sha256": "f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04",
+          "source": "Maven POM com.google.guava/guava-parent/26.0-android/a2c0df489614352b7e8e503e274bd1dee5c42a64/guava-parent-26.0-android.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.core:core-viewtree",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/d4f2ed1176fa8c5612b80f74c952a8799142a9ed36022a1a238fde5b140580d9.txt",
+          "sha256": "d4f2ed1176fa8c5612b80f74c952a8799142a9ed36022a1a238fde5b140580d9",
+          "source": "Maven POM androidx.core/core-viewtree/1.0.0/4867db2b46b603ace8f822e6d476977300c98c21/core-viewtree-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.interpolator:interpolator",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b.txt",
+          "sha256": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b",
+          "source": "Maven POM androidx.interpolator/interpolator/1.0.0/dfa9c6b5826fbf2f910e1720ce2b0421d7aafec3/interpolator-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-common",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/1004f4df05118b13c2a909846badc66646ed277944706a604e4dd8284d53548b.txt",
+          "sha256": "1004f4df05118b13c2a909846badc66646ed277944706a604e4dd8284d53548b",
+          "source": "Maven POM androidx.lifecycle/lifecycle-common/2.10.0/393cede6736b2d4db838fa4d8f2b47ddac813abb/lifecycle-common-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-common-jvm",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/ca062b9abb0298b0d40ae10c2d1ca06d4129f5f60efdc5e8c44c6c2b3375d15b.txt",
+          "sha256": "ca062b9abb0298b0d40ae10c2d1ca06d4129f5f60efdc5e8c44c6c2b3375d15b",
+          "source": "Maven POM androidx.lifecycle/lifecycle-common-jvm/2.10.0/91583e45b0dc9670f9cc9ea6b3abf2824c83202b/lifecycle-common-jvm-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+      "version": "1.11.0",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/41b6e78c1b0d11bc99de795390df9e4ece64dc113f482d6e308f1b7a421c1d30.txt",
+          "sha256": "41b6e78c1b0d11bc99de795390df9e4ece64dc113f482d6e308f1b7a421c1d30",
+          "source": "Maven POM org.jetbrains.kotlinx/kotlinx-coroutines-core/1.11.0/d82d89f0543debc20787622e379033c2439a857a/kotlinx-coroutines-core-1.11.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
+      "version": "1.11.0",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/dd54b97aa3fab91fc24f5df2916c22be9429a339d2f45b7ff092332f6c19dc39.txt",
+          "sha256": "dd54b97aa3fab91fc24f5df2916c22be9429a339d2f45b7ff092332f6c19dc39",
+          "source": "Maven POM org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.11.0/2cb8283844ee479838d1a756a6a7f1c6f1acbb76/kotlinx-coroutines-core-jvm-1.11.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-bom",
+      "version": "1.11.0",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/f65860bce58a2bfadf05fdc516d38333421f0e387fef87e24449c0394c80d254.txt",
+          "sha256": "f65860bce58a2bfadf05fdc516d38333421f0e387fef87e24449c0394c80d254",
+          "source": "Maven POM org.jetbrains.kotlinx/kotlinx-coroutines-bom/1.11.0/b4ca3dd84d1f380f6ef1e8c1a81bdf9977a3a2d6/kotlinx-coroutines-bom-1.11.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlinx:kotlinx-coroutines-android",
+      "version": "1.11.0",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/224567420d3e0ed5fef40f789fded45dfd51b162319e28d77d3c9a8dec4821b8.txt",
+          "sha256": "224567420d3e0ed5fef40f789fded45dfd51b162319e28d77d3c9a8dec4821b8",
+          "source": "Maven POM org.jetbrains.kotlinx/kotlinx-coroutines-android/1.11.0/c1803771dc96ca0454ed9aced9a218ed8cf37cbc/kotlinx-coroutines-android-1.11.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jspecify:jspecify",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6.txt",
+          "sha256": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6",
+          "source": "Maven POM org.jspecify/jspecify/1.0.0/fae4a252aeee8a649653b2f239067bcead8f80cb/jspecify-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-common-java8",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/afaa5d85193a6b108a25f6fa8a8ae3e7b2b0b2b2b7cf53597f72bcb4f5942718.txt",
+          "sha256": "afaa5d85193a6b108a25f6fa8a8ae3e7b2b0b2b2b7cf53597f72bcb4f5942718",
+          "source": "Maven POM androidx.lifecycle/lifecycle-common-java8/2.10.0/f4b56c1d036a707a6808d54a7aac0e0411993e7d/lifecycle-common-java8-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-livedata",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/b6b93686c55a1ca8ec20e7d84a5fe341267e5dac6e390fb1cca398383111eb08.txt",
+          "sha256": "b6b93686c55a1ca8ec20e7d84a5fe341267e5dac6e390fb1cca398383111eb08",
+          "source": "Maven POM androidx.lifecycle/lifecycle-livedata/2.10.0/c2c013b4cfeb915012f824296467d2ac1ca11e40/lifecycle-livedata-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.arch.core:core-common",
+      "version": "2.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28.txt",
+          "sha256": "1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28",
+          "source": "Maven POM androidx.arch.core/core-common/2.2.0/9627f64db0ba64e3c2432a274b83d23e1c0c627e/core-common-2.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.arch.core:core-runtime",
+      "version": "2.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5.txt",
+          "sha256": "0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5",
+          "source": "Maven POM androidx.arch.core/core-runtime/2.2.0/d9cb0beb2de910cd9922535b6028054786fea928/core-runtime-2.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-livedata-core",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/4bed5e91cd2a7c01558320b6a176dbb867fca3c4c697db948e203be45f910d64.txt",
+          "sha256": "4bed5e91cd2a7c01558320b6a176dbb867fca3c4c697db948e203be45f910d64",
+          "source": "Maven POM androidx.lifecycle/lifecycle-livedata-core/2.10.0/6df44fa0ce405b9996e1ede1e66072e3684e73a7/lifecycle-livedata-core-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-livedata-core-ktx",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/d982082c3279eeb9c187d9897665ca9a90d3443f35dadc689261f4b27c72d9ac.txt",
+          "sha256": "d982082c3279eeb9c187d9897665ca9a90d3443f35dadc689261f4b27c72d9ac",
+          "source": "Maven POM androidx.lifecycle/lifecycle-livedata-core-ktx/2.10.0/42aec5de5bd27b9a2d0731fded77be596084c10a/lifecycle-livedata-core-ktx-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-process",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/a2c3062320873f9ac29ded1d9ca4a2415529c2e4568d53b5f2b813ec52adc664.txt",
+          "sha256": "a2c3062320873f9ac29ded1d9ca4a2415529c2e4568d53b5f2b813ec52adc664",
+          "source": "Maven POM androidx.lifecycle/lifecycle-process/2.10.0/d31fd4147b900589c1d70edfd21698a3b332da73/lifecycle-process-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-runtime",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/4a8b5eec54d5ecdf099ea53b2e4e9f24db2967ea5d393097b6a6c549ed69308d.txt",
+          "sha256": "4a8b5eec54d5ecdf099ea53b2e4e9f24db2967ea5d393097b6a6c549ed69308d",
+          "source": "Maven POM androidx.lifecycle/lifecycle-runtime/2.10.0/126126c513354c0a8d1d9d122bba67b84594786a/lifecycle-runtime-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-runtime-android",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/e97ee01daf6f4dccb900bdb7672baab5ad3c7c25c45491fdccf5eba33b6eafff.txt",
+          "sha256": "e97ee01daf6f4dccb900bdb7672baab5ad3c7c25c45491fdccf5eba33b6eafff",
+          "source": "Maven POM androidx.lifecycle/lifecycle-runtime-android/2.10.0/b6807aaf25b927c9b8136d5b70501eb6e53de017/lifecycle-runtime-android-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.profileinstaller:profileinstaller",
+      "version": "1.4.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/d5fe39981a3b4b7c39585130da0bfc93835054c834a438d3e63e065e5f78be55.txt",
+          "sha256": "d5fe39981a3b4b7c39585130da0bfc93835054c834a438d3e63e065e5f78be55",
+          "source": "Maven POM androidx.profileinstaller/profileinstaller/1.4.0/ce5ab72a997e0ddfb08e1cbdc39f77ac5ed315cf/profileinstaller-1.4.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.startup:startup-runtime",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/69594163d8bb148df97a9fbb5aa8a92486bb8961db5f73871b8a84122616593b.txt",
+          "sha256": "69594163d8bb148df97a9fbb5aa8a92486bb8961db5f73871b8a84122616593b",
+          "source": "Maven POM androidx.startup/startup-runtime/1.2.0/ed85b9b15605b02577ad71db431cedc5e2542585/startup-runtime-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.tracing:tracing",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1.txt",
+          "sha256": "f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1",
+          "source": "Maven POM androidx.tracing/tracing/1.2.0/141eea2b77be286c2f1821af2c5b4992aaef964a/tracing-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.tracing:tracing-ktx",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/8958b5a0153c1a82cb133703d3d11155898738280a354e92ca1817d7ca6f4cb7.txt",
+          "sha256": "8958b5a0153c1a82cb133703d3d11155898738280a354e92ca1817d7ca6f4cb7",
+          "source": "Maven POM androidx.tracing/tracing-ktx/1.2.0/b4ff2671cd314e5a32657c1a72d15957fa8ffe68/tracing-ktx-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-service",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/2de9428f9e1a3f71fa209658213d2d85f75877761cc1fd20a8c9b2b54aa7078a.txt",
+          "sha256": "2de9428f9e1a3f71fa209658213d2d85f75877761cc1fd20a8c9b2b54aa7078a",
+          "source": "Maven POM androidx.lifecycle/lifecycle-service/2.10.0/ee84d7ff56cf470da55b752cef351aae22c2b055/lifecycle-service-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-viewmodel",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/1d860aff0ca598d48e8e83da3f4e6769078498574a18d3b889ec2b8c4090b198.txt",
+          "sha256": "1d860aff0ca598d48e8e83da3f4e6769078498574a18d3b889ec2b8c4090b198",
+          "source": "Maven POM androidx.lifecycle/lifecycle-viewmodel/2.10.0/c52da73de9d82e84996e309df023c1d0beff9e38/lifecycle-viewmodel-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-viewmodel-android",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/0aa171a50f50a85c90687ad82dcd37f31afdd1bfd2463c215d1322960e51e228.txt",
+          "sha256": "0aa171a50f50a85c90687ad82dcd37f31afdd1bfd2463c215d1322960e51e228",
+          "source": "Maven POM androidx.lifecycle/lifecycle-viewmodel-android/2.10.0/a0929a33edd8ea4ca07ec50d435b09309d2bf443/lifecycle-viewmodel-android-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/59656ffcae1e0e147043b0d6d89966a5f96752f05291ebfa028406ed94444dd1.txt",
+          "sha256": "59656ffcae1e0e147043b0d6d89966a5f96752f05291ebfa028406ed94444dd1",
+          "source": "Maven POM androidx.lifecycle/lifecycle-viewmodel-savedstate/2.10.0/ecdafa85a854ce2c1864c5eb14679757aba46c98/lifecycle-viewmodel-savedstate-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android",
+      "version": "2.10.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/5fcd429ba57e1dde1b438534e53c23d6274d234e33c748963f6faa9f81933c87.txt",
+          "sha256": "5fcd429ba57e1dde1b438534e53c23d6274d234e33c748963f6faa9f81933c87",
+          "source": "Maven POM androidx.lifecycle/lifecycle-viewmodel-savedstate-android/2.10.0/48cdf0c74a9c1a3baa1e8d6a5bdc0704b934d416/lifecycle-viewmodel-savedstate-android-2.10.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.core:core-ktx",
+      "version": "1.18.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/3a5e0009e06517627756b9203d9a8f055fda87b215a17b775bae568697854196.txt",
+          "sha256": "3a5e0009e06517627756b9203d9a8f055fda87b215a17b775bae568697854196",
+          "source": "Maven POM androidx.core/core-ktx/1.18.0/4bc6d913767f38c3f6c245eaf1aee21dd6e981b/core-ktx-1.18.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.savedstate:savedstate",
+      "version": "1.4.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/d2b68a2d0cc76f23cebc6d4ea9bbf2d63fb536ffd94e05514ad9da6c5f530492.txt",
+          "sha256": "d2b68a2d0cc76f23cebc6d4ea9bbf2d63fb536ffd94e05514ad9da6c5f530492",
+          "source": "Maven POM androidx.savedstate/savedstate/1.4.0/fff88ff9a8ff3cb316cefb2656bc8d186e62d84e/savedstate-1.4.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.savedstate:savedstate-android",
+      "version": "1.4.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/b44b215b4cce24ca64b5faa58ff463f4b91abc02af95ba405ade488828f4f779.txt",
+          "sha256": "b44b215b4cce24ca64b5faa58ff463f4b91abc02af95ba405ade488828f4f779",
+          "source": "Maven POM androidx.savedstate/savedstate-android/1.4.0/1922bf5307813705622ed1498ab3a02f7adae7bf/savedstate-android-1.4.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlinx:kotlinx-serialization-core",
+      "version": "1.7.3",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/31d111776b9af777ca167103f2d61fbeeaa32dae6dd6635906b76d8278ba5730.txt",
+          "sha256": "31d111776b9af777ca167103f2d61fbeeaa32dae6dd6635906b76d8278ba5730",
+          "source": "Maven POM org.jetbrains.kotlinx/kotlinx-serialization-core/1.7.3/8d9caf131b7b60132ae6ea612a0b76d574cc4bcf/kotlinx-serialization-core-1.7.3.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/734f5f749208dd0bef3d98caa594cf9222afdf0fee5b6843347a8fe64e240427.txt",
+          "sha256": "734f5f749208dd0bef3d98caa594cf9222afdf0fee5b6843347a8fe64e240427",
+          "source": "Maven POM org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.7.3/efdf58645976b9fa789259e96c41ad8136a559a3/kotlinx-serialization-core-jvm-1.7.3.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "org.jetbrains.kotlinx:kotlinx-serialization-bom",
+      "version": "1.7.3",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/4226a491c5b59ce909f73b65aa98944191c8dcac3825637c6be1069e6b589a46.txt",
+          "sha256": "4226a491c5b59ce909f73b65aa98944191c8dcac3825637c6be1069e6b589a46",
+          "source": "Maven POM org.jetbrains.kotlinx/kotlinx-serialization-bom/1.7.3/358a3249085a860b24b5769b74b307725b53e4e5/kotlinx-serialization-bom-1.7.3.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.versionedparcelable:versionedparcelable",
+      "version": "1.1.1",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f.txt",
+          "sha256": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f",
+          "source": "Maven POM androidx.versionedparcelable/versionedparcelable/1.1.1/301263729256e9f19b144ce00f83d600ba14c38b/versionedparcelable-1.1.1.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.appcompat:appcompat-resources",
+      "version": "1.7.1",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/2faf922e8c3d706f29d862b3fbb3aa1347705c21c6eae18586d2bb1f7366ea01.txt",
+          "sha256": "2faf922e8c3d706f29d862b3fbb3aa1347705c21c6eae18586d2bb1f7366ea01",
+          "source": "Maven POM androidx.appcompat/appcompat-resources/1.7.1/31130db4e028b10fed8dd2c38eb0a3785348b730/appcompat-resources-1.7.1.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.vectordrawable:vectordrawable",
+      "version": "1.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/5b0e2d5b2179e54804785cbc21ce5f473b5e1ddd55a57da482e94dcd39492bb2.txt",
+          "sha256": "5b0e2d5b2179e54804785cbc21ce5f473b5e1ddd55a57da482e94dcd39492bb2",
+          "source": "Maven POM androidx.vectordrawable/vectordrawable/1.1.0/8b15e03d94f7d9a07cbea653ad7f524315d1d507/vectordrawable-1.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.vectordrawable:vectordrawable-animated",
+      "version": "1.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/276a20116b705fb75b9003ee9496c56f6fd3b32375fb232472811eba60a040bd.txt",
+          "sha256": "276a20116b705fb75b9003ee9496c56f6fd3b32375fb232472811eba60a040bd",
+          "source": "Maven POM androidx.vectordrawable/vectordrawable-animated/1.1.0/2c40e16427f4e94ea471526868ba5ac4bd13de6d/vectordrawable-animated-1.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.cursoradapter:cursoradapter",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/62d95c89850af21030b19f14d5f7ecd6d8bcc9a3014c59002ec99624caac8100.txt",
+          "sha256": "62d95c89850af21030b19f14d5f7ecd6d8bcc9a3014c59002ec99624caac8100",
+          "source": "Maven POM androidx.cursoradapter/cursoradapter/1.0.0/b1d8c36333871395c98e157e903881d44a509899/cursoradapter-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.drawerlayout:drawerlayout",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/da6733425a83f5ce850878fa7201082345fed7c668dd58550fdd19c0396c6fa4.txt",
+          "sha256": "da6733425a83f5ce850878fa7201082345fed7c668dd58550fdd19c0396c6fa4",
+          "source": "Maven POM androidx.drawerlayout/drawerlayout/1.0.0/436d14f0b503b411431a0c38e5368ba4ec4b1e62/drawerlayout-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.customview:customview",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/ce9e47b87184f5bd5e139e9becd5b26476d42d78c31bf2fdedc37acb41b9ad49.txt",
+          "sha256": "ce9e47b87184f5bd5e139e9becd5b26476d42d78c31bf2fdedc37acb41b9ad49",
+          "source": "Maven POM androidx.customview/customview/1.0.0/53c54220d41f17dcb79d4d7f39432a328df544b2/customview-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.emoji2:emoji2",
+      "version": "1.3.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/14ebbea8234f013211965fdd08b42ee907ce0075af321018c8c2865c2e5db0eb.txt",
+          "sha256": "14ebbea8234f013211965fdd08b42ee907ce0075af321018c8c2865c2e5db0eb",
+          "source": "Maven POM androidx.emoji2/emoji2/1.3.0/ed727398c81d0c60b769905a0264cee48b319914/emoji2-1.3.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.emoji2:emoji2-views-helper",
+      "version": "1.3.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/2673b0f5859d4361a4e9a30457852a6745d0c3c85b5e0412070483f3963ef526.txt",
+          "sha256": "2673b0f5859d4361a4e9a30457852a6745d0c3c85b5e0412070483f3963ef526",
+          "source": "Maven POM androidx.emoji2/emoji2-views-helper/1.3.0/ec7e94eb1e8f4a33d0fe0b092d52b654494987fe/emoji2-views-helper-1.3.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.fragment:fragment",
+      "version": "1.7.1",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/18bbbd3a53f8c1f026be496a847d9607ae06da9cb0f85f47f702fd27e2bd3906.txt",
+          "sha256": "18bbbd3a53f8c1f026be496a847d9607ae06da9cb0f85f47f702fd27e2bd3906",
+          "source": "Maven POM androidx.fragment/fragment/1.7.1/99ba2e26985c1b5b04c3e1ea10f41a6b9fc98ab7/fragment-1.7.1.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.loader:loader",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/c978d550808b47434aa49a63164110a50b55b0bcc6160a93a2e37d5110df8c5e.txt",
+          "sha256": "c978d550808b47434aa49a63164110a50b55b0bcc6160a93a2e37d5110df8c5e",
+          "source": "Maven POM androidx.loader/loader/1.0.0/4b1418669a3392afe77045f85ba870f0c3148f67/loader-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.viewpager:viewpager",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/1f72f836339d03c6eb013f65075e76ca87075a577578eb4f95f74a3a5d253128.txt",
+          "sha256": "1f72f836339d03c6eb013f65075e76ca87075a577578eb4f95f74a3a5d253128",
+          "source": "Maven POM androidx.viewpager/viewpager/1.0.0/42452223b3d46c0e3bf2c67f226144ce64551be9/viewpager-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.resourceinspection:resourceinspection-annotation",
+      "version": "1.0.1",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/b8eb4938ed95d7fcdaa2712ebca363e46a0f9228b8be7f23154def56846815dc.txt",
+          "sha256": "b8eb4938ed95d7fcdaa2712ebca363e46a0f9228b8be7f23154def56846815dc",
+          "source": "Maven POM androidx.resourceinspection/resourceinspection-annotation/1.0.1/2c264bd97530601a68f3952fe040e2f7786ebc60/resourceinspection-annotation-1.0.1.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "io.flutter:armeabi_v7a_release",
+      "version": "1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362",
+      "licenses": [
+        "Flutter engine/framework BSD-3-Clause and composite engine notices"
+      ],
+      "category": "Flutter engine/framework BSD-3-Clause and composite engine notices",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/2986d220804deac9297d8932eacbd904dc7633800a7ce0ac9deccf49a92c0881.txt",
+          "sha256": "2986d220804deac9297d8932eacbd904dc7633800a7ce0ac9deccf49a92c0881",
+          "source": "Maven POM io.flutter/armeabi_v7a_release/1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362/fcb273159a2e14f049f89f6d697650616c1aab53/armeabi_v7a_release-1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362.pom"
+        },
+        {
+          "file": "/licenses/texts/a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20.txt",
+          "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
+          "source": "Flutter LICENSE"
+        },
+        {
+          "file": "/licenses/texts/82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369.txt",
+          "sha256": "82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369",
+          "source": "Flutter engine bundled notices"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "io.flutter:arm64_v8a_release",
+      "version": "1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362",
+      "licenses": [
+        "Flutter engine/framework BSD-3-Clause and composite engine notices"
+      ],
+      "category": "Flutter engine/framework BSD-3-Clause and composite engine notices",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/532c772c3c1e9934df1d6707528d7675d611cd4609f46ca6cd72503b897c6893.txt",
+          "sha256": "532c772c3c1e9934df1d6707528d7675d611cd4609f46ca6cd72503b897c6893",
+          "source": "Maven POM io.flutter/arm64_v8a_release/1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362/800b8ab7aab49e31589280e94d5124d3e30a30a7/arm64_v8a_release-1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362.pom"
+        },
+        {
+          "file": "/licenses/texts/a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20.txt",
+          "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
+          "source": "Flutter LICENSE"
+        },
+        {
+          "file": "/licenses/texts/82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369.txt",
+          "sha256": "82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369",
+          "source": "Flutter engine bundled notices"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "io.flutter:x86_64_release",
+      "version": "1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362",
+      "licenses": [
+        "Flutter engine/framework BSD-3-Clause and composite engine notices"
+      ],
+      "category": "Flutter engine/framework BSD-3-Clause and composite engine notices",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/7e536c9b25f8488b6107e1efcfb6e356e54482621edf0c42beb3fd277329b5cc.txt",
+          "sha256": "7e536c9b25f8488b6107e1efcfb6e356e54482621edf0c42beb3fd277329b5cc",
+          "source": "Maven POM io.flutter/x86_64_release/1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362/dbc051c03622aeb099213ed11c90d8c6b6619115/x86_64_release-1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362.pom"
+        },
+        {
+          "file": "/licenses/texts/a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20.txt",
+          "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
+          "source": "Flutter LICENSE"
+        },
+        {
+          "file": "/licenses/texts/82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369.txt",
+          "sha256": "82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369",
+          "source": "Flutter engine bundled notices"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "io.flutter:flutter_embedding_release",
+      "version": "1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362",
+      "licenses": [
+        "Flutter engine/framework BSD-3-Clause and composite engine notices"
+      ],
+      "category": "Flutter engine/framework BSD-3-Clause and composite engine notices",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/b495085628970f2068378b00e11337f7657229f9509543dc0e98235c6e70cbe6.txt",
+          "sha256": "b495085628970f2068378b00e11337f7657229f9509543dc0e98235c6e70cbe6",
+          "source": "Maven POM io.flutter/flutter_embedding_release/1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362/3987395586468db533401dcdea23a5d820c25d9f/flutter_embedding_release-1.0.0-4c525dac5ebe5971c5708ef73558ed8edcf4a362.pom"
+        },
+        {
+          "file": "/licenses/texts/a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20.txt",
+          "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20",
+          "source": "Flutter LICENSE"
+        },
+        {
+          "file": "/licenses/texts/82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369.txt",
+          "sha256": "82a5f93f918f99ff82af18c8be176c709dc812cb3f5e1e1cd93847bdeb0f9369",
+          "source": "Flutter engine bundled notices"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.window:window-java",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/73570afdc9db596396a92beefe4de5d22afac7eab112c4ab30737bb7f884a1fd.txt",
+          "sha256": "73570afdc9db596396a92beefe4de5d22afac7eab112c4ab30737bb7f884a1fd",
+          "source": "Maven POM androidx.window/window-java/1.2.0/ce7fd4835c59a9c7a14e2eea33b87c285052754f/window-java-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.window:window",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/280c00e2495e1d5749b1c0ab59fc728a2964ccb33f5e11880857ee2efe4ec15b.txt",
+          "sha256": "280c00e2495e1d5749b1c0ab59fc728a2964ccb33f5e11880857ee2efe4ec15b",
+          "source": "Maven POM androidx.window/window/1.2.0/7ce048ac19d66d0cc746bfd342d569c59dc40e73/window-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.window.extensions.core:core",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/ec7573c61c1f9f510f6e5bcad2683b4dcb401fee75426c0f57b41490836791c8.txt",
+          "sha256": "ec7573c61c1f9f510f6e5bcad2683b4dcb401fee75426c0f57b41490836791c8",
+          "source": "Maven POM androidx.window.extensions.core/core/1.0.0/a058dd96be376fce2e53c8d8fc719c5680a9c15e/core-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.getkeepsafe.relinker:relinker",
+      "version": "1.4.5",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/099e4e007b80700c25190b81ac7b256f42b04f1e829dbd0673f0c415e9613426.txt",
+          "sha256": "099e4e007b80700c25190b81ac7b256f42b04f1e829dbd0673f0c415e9613426",
+          "source": "Maven POM com.getkeepsafe.relinker/relinker/1.4.5/2eed608a0e29d2c8b8e71778cd6c30ecec50f6a0/relinker-1.4.5.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.exifinterface:exifinterface",
+      "version": "1.4.1",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/944e867584e20748613cc7610bd5fa10a968cc98cb59fdfdb863e9f0201df289.txt",
+          "sha256": "944e867584e20748613cc7610bd5fa10a968cc98cb59fdfdb863e9f0201df289",
+          "source": "Maven POM androidx.exifinterface/exifinterface/1.4.1/9874b61bf0ab9e87d4ecac7404b1901777b65de5/exifinterface-1.4.1.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.media:media",
+      "version": "1.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/f620e7c7852a628dbf815859f94ba6fc104bedf36ee859473edb1753094db4de.txt",
+          "sha256": "f620e7c7852a628dbf815859f94ba6fc104bedf36ee859473edb1753094db4de",
+          "source": "Maven POM androidx.media/media/1.1.0/94fdf36c3c88dc06aade39188fb847651d75942c/media-1.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.code.gson:gson",
+      "version": "2.13.2",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/3aa06aa7c0f9af092961a42d09578e4324be146348a0ee6ed47857f7c2677b76.txt",
+          "sha256": "3aa06aa7c0f9af092961a42d09578e4324be146348a0ee6ed47857f7c2677b76",
+          "source": "Maven POM com.google.code.gson/gson/2.13.2/bf590b4d5dbf4eab3e0654e6db5de8e70947edb3/gson-2.13.2.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.errorprone:error_prone_annotations",
+      "version": "2.41.0",
+      "licenses": [
+        "Apache 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/a151df1e2e0b48618d8b06a180748a29b3abb39b1b2396f6a1c879a727488c6e.txt",
+          "sha256": "a151df1e2e0b48618d8b06a180748a29b3abb39b1b2396f6a1c879a727488c6e",
+          "source": "Maven POM com.google.errorprone/error_prone_annotations/2.41.0/3035cf6cd44cac9ae600cabb1fe4a494d9c264e4/error_prone_annotations-2.41.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.crypto.tink:tink-android",
+      "version": "1.23.0",
+      "licenses": [
+        "Apache License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/a2d27e7207e6a25764859b62924fc7b972f41884ce272cead9b946c15a1f410f.txt",
+          "sha256": "a2d27e7207e6a25764859b62924fc7b972f41884ce272cead9b946c15a1f410f",
+          "source": "Maven POM com.google.crypto.tink/tink-android/1.23.0/fb9e82eb3b423a26696c39ebadbb89571d2f2ee3/tink-android-1.23.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.code.findbugs:jsr305",
+      "version": "3.0.2",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/19889dbdf1b254b2601a5ee645b8147a974644882297684c798afe5d63d78dfe.txt",
+          "sha256": "19889dbdf1b254b2601a5ee645b8147a974644882297684c798afe5d63d78dfe",
+          "source": "Maven POM com.google.code.findbugs/jsr305/3.0.2/8d93cdf4d84d7e1de736df607945c6df0730a10f/jsr305-3.0.2.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.gms:play-services-location",
+      "version": "21.3.0",
+      "licenses": [
+        "Android Software Development Kit License"
+      ],
+      "category": "Proprietary/platform service; POM metadata and applicable service terms, not OSS plugin license",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/d39695bcf029afb9ace67bf04d03454a0622c956641353fba16064d1fdc7b791.txt",
+          "sha256": "d39695bcf029afb9ace67bf04d03454a0622c956641353fba16064d1fdc7b791",
+          "source": "Maven POM com.google.android.gms/play-services-location/21.3.0/259e898037ffa4d9256edb28e440d9b8aed097d9/play-services-location-21.3.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.gms:play-services-base",
+      "version": "18.5.0",
+      "licenses": [
+        "Android Software Development Kit License"
+      ],
+      "category": "Proprietary/platform service; POM metadata and applicable service terms, not OSS plugin license",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/2570b515c2717af386c890e97f644782e3f86da7b677a4ff1036147e7ea622a4.txt",
+          "sha256": "2570b515c2717af386c890e97f644782e3f86da7b677a4ff1036147e7ea622a4",
+          "source": "Maven POM com.google.android.gms/play-services-base/18.5.0/bea849333b5255e10aba738e7ba15f40b70fbf51/play-services-base-18.5.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.gms:play-services-basement",
+      "version": "18.9.0",
+      "licenses": [
+        "Android Software Development Kit License"
+      ],
+      "category": "Proprietary/platform service; POM metadata and applicable service terms, not OSS plugin license",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/601ef047167c6c280b8b190942d9e94a0463e891acd9c6ccf532eb298a5efe5b.txt",
+          "sha256": "601ef047167c6c280b8b190942d9e94a0463e891acd9c6ccf532eb298a5efe5b",
+          "source": "Maven POM com.google.android.gms/play-services-basement/18.9.0/3183cb9b40e2dc559f13e58ee42f695e3a0fc789/play-services-basement-18.9.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.gms:play-services-tasks",
+      "version": "18.2.0",
+      "licenses": [
+        "Android Software Development Kit License"
+      ],
+      "category": "Proprietary/platform service; POM metadata and applicable service terms, not OSS plugin license",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/6b99c48a895d155e58abcee66cc22146db83abd5d84caf6c8f7a2aea9b1bcd21.txt",
+          "sha256": "6b99c48a895d155e58abcee66cc22146db83abd5d84caf6c8f7a2aea9b1bcd21",
+          "source": "Maven POM com.google.android.gms/play-services-tasks/18.2.0/3e21a0ece933e1b3415a7a9cd90397852bed2735/play-services-tasks-18.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.gms:play-services-maps",
+      "version": "20.0.0",
+      "licenses": [
+        "Android Software Development Kit License"
+      ],
+      "category": "Proprietary/platform service; POM metadata and applicable service terms, not OSS plugin license",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/717d2cc0d8adc587f2ebf87e756c56614bc10e4d2a5f9407ed0757d26ebd03ce.txt",
+          "sha256": "717d2cc0d8adc587f2ebf87e756c56614bc10e4d2a5f9407ed0757d26ebd03ce",
+          "source": "Maven POM com.google.android.gms/play-services-maps/20.0.0/9b5baf9b051870a7c7a38a019098df578ba4fca8/play-services-maps-20.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.maps.android:android-maps-utils",
+      "version": "4.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/e0a08e501d6ea661ca19108b9b6233f42a7ad86722b75e1383781b1c5cf9bc5a.txt",
+          "sha256": "e0a08e501d6ea661ca19108b9b6233f42a7ad86722b75e1383781b1c5cf9bc5a",
+          "source": "Maven POM com.google.maps.android/android-maps-utils/4.1.0/6f8123566eee9077d8aeda49ee6ab8bc1befc318/android-maps-utils-4.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.glance:glance-appwidget",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/88f36b073e53458980438905ab3c36905146f49c73d273264a98265d548269e9.txt",
+          "sha256": "88f36b073e53458980438905ab3c36905146f49c73d273264a98265d548269e9",
+          "source": "Maven POM androidx.glance/glance-appwidget/1.2.0/a665216fbee7c4d23393f6f2ceae0792795530ae/glance-appwidget-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.runtime:runtime",
+      "version": "1.7.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/f48867af35d567567c160d270dd29e788496143dd5eab50b1690856efb2523c2.txt",
+          "sha256": "f48867af35d567567c160d270dd29e788496143dd5eab50b1690856efb2523c2",
+          "source": "Maven POM androidx.compose.runtime/runtime/1.7.8/1149a8c001ea8ab152e6c3e708dd66ae020936e9/runtime-1.7.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.runtime:runtime-android",
+      "version": "1.7.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/f6a8b12a6e29baa7811138d669de6f13b714eaa0e0a24f543637b4cbe80f3be5.txt",
+          "sha256": "f6a8b12a6e29baa7811138d669de6f13b714eaa0e0a24f543637b4cbe80f3be5",
+          "source": "Maven POM androidx.compose.runtime/runtime-android/1.7.8/96bb212b5061c73102b3e8dce8ba9fff989be9d8/runtime-android-1.7.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-graphics",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/4a9c632ebfe500e24e015c76640ed5151f3874e4fada15361dc1e5b2b94ad86b.txt",
+          "sha256": "4a9c632ebfe500e24e015c76640ed5151f3874e4fada15361dc1e5b2b94ad86b",
+          "source": "Maven POM androidx.compose.ui/ui-graphics/1.6.8/a8686f2d00b616d2770d3d53621aacdbcbea58d2/ui-graphics-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-graphics-android",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/26647e7dbb007cd5a16d59557a39ba870934c057684b9e8b8898dd5dbfdf0baf.txt",
+          "sha256": "26647e7dbb007cd5a16d59557a39ba870934c057684b9e8b8898dd5dbfdf0baf",
+          "source": "Maven POM androidx.compose.ui/ui-graphics-android/1.6.8/304aa4f15d773982668b8f646b3e94f1c5977a71/ui-graphics-android-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-unit",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/152a5f0e49aad38bb22012364d63f68b75bcdf6dc5d79a2723b01c2eefae7dd6.txt",
+          "sha256": "152a5f0e49aad38bb22012364d63f68b75bcdf6dc5d79a2723b01c2eefae7dd6",
+          "source": "Maven POM androidx.compose.ui/ui-unit/1.6.8/a0bf36bcb52f7d87a03f762802d6844e32b21a1f/ui-unit-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-unit-android",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/e3efeb493cb25006f3e296a3ccf25ea251efbe0f881814c9bc7aed739380c42b.txt",
+          "sha256": "e3efeb493cb25006f3e296a3ccf25ea251efbe0f881814c9bc7aed739380c42b",
+          "source": "Maven POM androidx.compose.ui/ui-unit-android/1.6.8/eae798ad46a3f9638aa1a64fd5580710ec306d0f/ui-unit-android-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-geometry",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/071f3d773cd9f0a6dfcd90c30a5beb2edfa09d3753205a1781f35f3c22d29bdf.txt",
+          "sha256": "071f3d773cd9f0a6dfcd90c30a5beb2edfa09d3753205a1781f35f3c22d29bdf",
+          "source": "Maven POM androidx.compose.ui/ui-geometry/1.6.8/8c96eb5179538b090c871cd4b39ac1b98d253a18/ui-geometry-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-geometry-android",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/3120c563bf2e92ad551d4b7e6d841d8ed06e501f026855deda73b206c7d366eb.txt",
+          "sha256": "3120c563bf2e92ad551d4b7e6d841d8ed06e501f026855deda73b206c7d366eb",
+          "source": "Maven POM androidx.compose.ui/ui-geometry-android/1.6.8/cca699754344ffd2186138a6f56abbc54a471fa9/ui-geometry-android-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-util",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/205a6170c60ffcfd4fba7a49948deedb3b00114d7322e489729a6ca7d54176da.txt",
+          "sha256": "205a6170c60ffcfd4fba7a49948deedb3b00114d7322e489729a6ca7d54176da",
+          "source": "Maven POM androidx.compose.ui/ui-util/1.6.8/af26fd607bac9cc185a222996443061590683028/ui-util-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.compose.ui:ui-util-android",
+      "version": "1.6.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/6312b563a7c3a8c47eeff2ad513c9065a6ef413166f66965892fb07d1478d89a.txt",
+          "sha256": "6312b563a7c3a8c47eeff2ad513c9065a6ef413166f66965892fb07d1478d89a",
+          "source": "Maven POM androidx.compose.ui/ui-util-android/1.6.8/e050593c16ec41293a32b47d34228c985112539a/ui-util-android-1.6.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.core:core-remoteviews",
+      "version": "1.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/3272accaf7e3ad43da3e14f3ee921e43089fe65de501480cec47c8280996e850.txt",
+          "sha256": "3272accaf7e3ad43da3e14f3ee921e43089fe65de501480cec47c8280996e850",
+          "source": "Maven POM androidx.core/core-remoteviews/1.1.0/75ff2017893a26485f89797afbf5b3923b9438a7/core-remoteviews-1.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.datastore:datastore",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/d3b4f20e7a5cdeceac8e966e9d8df54131d39a3fbbc642b03457f7e278b57e33.txt",
+          "sha256": "d3b4f20e7a5cdeceac8e966e9d8df54131d39a3fbbc642b03457f7e278b57e33",
+          "source": "Maven POM androidx.datastore/datastore/1.0.0/282f95f83c9b80aa690d146aac19b45a1b63ca3a/datastore-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.datastore:datastore-core",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/80c6b6611f7f9b4378711f56476fd6c9433d2822d5c3acc6d93d08cd83339d23.txt",
+          "sha256": "80c6b6611f7f9b4378711f56476fd6c9433d2822d5c3acc6d93d08cd83339d23",
+          "source": "Maven POM androidx.datastore/datastore-core/1.0.0/33891d7e2a7bbbc39ea13da8f43083496cf3dfed/datastore-core-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.datastore:datastore-preferences",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/cdc21fcabc082181033a1d0756af5cad65df179020913018634fe90f31961a86.txt",
+          "sha256": "cdc21fcabc082181033a1d0756af5cad65df179020913018634fe90f31961a86",
+          "source": "Maven POM androidx.datastore/datastore-preferences/1.0.0/adcbb905da6f125ae4ea0c3ff9c2d7698096fc57/datastore-preferences-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.datastore:datastore-preferences-core",
+      "version": "1.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/25485b0924f6e635f23831979d6d477e7367e732b443b5a4e28e8764ff6baac2.txt",
+          "sha256": "25485b0924f6e635f23831979d6d477e7367e732b443b5a4e28e8764ff6baac2",
+          "source": "Maven POM androidx.datastore/datastore-preferences-core/1.0.0/f30e221d48b3f445ad6cf0a85e47ab501a469c51/datastore-preferences-core-1.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.glance:glance",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/4cda4b69bcc4d4d4c9fdd9fb0cc2af02a4a6b655034477df9d27a9e04126c29c.txt",
+          "sha256": "4cda4b69bcc4d4d4c9fdd9fb0cc2af02a4a6b655034477df9d27a9e04126c29c",
+          "source": "Maven POM androidx.glance/glance/1.2.0/472ffb75c3b7d947a3448d876ef1052e6cdb0d71/glance-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.concurrent:concurrent-futures-ktx",
+      "version": "1.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/c903f8f51e3f4ea5e7e1f0a6fe3be873c357221227d103d08d7fd042f4b7570c.txt",
+          "sha256": "c903f8f51e3f4ea5e7e1f0a6fe3be873c357221227d103d08d7fd042f4b7570c",
+          "source": "Maven POM androidx.concurrent/concurrent-futures-ktx/1.1.0/eeeec8385e5aae89599bbb49309acd677654842/concurrent-futures-ktx-1.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.work:work-runtime",
+      "version": "2.11.2",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/f0703497ea0c6cf4c3b242ef9baa6d8cc28c194563f95340e57f0eff4ae29ee4.txt",
+          "sha256": "f0703497ea0c6cf4c3b242ef9baa6d8cc28c194563f95340e57f0eff4ae29ee4",
+          "source": "Maven POM androidx.work/work-runtime/2.11.2/118a4d918c2dd36d43b214f2b3991bca63677707/work-runtime-2.11.2.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.room:room-runtime",
+      "version": "2.7.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/9ff1c390ac3cd0818c23a011676b9b83e3e2ddbd1b64a45761f05d0013f11af0.txt",
+          "sha256": "9ff1c390ac3cd0818c23a011676b9b83e3e2ddbd1b64a45761f05d0013f11af0",
+          "source": "Maven POM androidx.room/room-runtime/2.7.0/6c74757a3f7daf96a4d5f06658ae791bef74419a/room-runtime-2.7.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.room:room-runtime-android",
+      "version": "2.7.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/f592f541a9c19e506ab2b033d589a6124887aff58156ceb747db4cae4f1e83b0.txt",
+          "sha256": "f592f541a9c19e506ab2b033d589a6124887aff58156ceb747db4cae4f1e83b0",
+          "source": "Maven POM androidx.room/room-runtime-android/2.7.0/6b4c21be2079620bf5a9bc1f6f0dc8a3966801c1/room-runtime-android-2.7.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.room:room-common",
+      "version": "2.7.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/fcd1cc684505349166185be740015279331cfad6fc81ba7a0f0a9ce5b1d8be33.txt",
+          "sha256": "fcd1cc684505349166185be740015279331cfad6fc81ba7a0f0a9ce5b1d8be33",
+          "source": "Maven POM androidx.room/room-common/2.7.0/19742ee67d1d43e368890aa9a07dfb4fc5458ada/room-common-2.7.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.room:room-common-jvm",
+      "version": "2.7.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/8ea01b5d78a7eee5697975ab5d0ef5b8aad1f9566dc915b1807858f6b9270be8.txt",
+          "sha256": "8ea01b5d78a7eee5697975ab5d0ef5b8aad1f9566dc915b1807858f6b9270be8",
+          "source": "Maven POM androidx.room/room-common-jvm/2.7.0/41cf8d32e1034e03e17d5d902b5a7719cd24798c/room-common-jvm-2.7.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.sqlite:sqlite",
+      "version": "2.5.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/ad3f6e8f4aac2428d2fec6dc99876004a98b788d0410a8f4b169ab57826d563f.txt",
+          "sha256": "ad3f6e8f4aac2428d2fec6dc99876004a98b788d0410a8f4b169ab57826d563f",
+          "source": "Maven POM androidx.sqlite/sqlite/2.5.0/8ea48f343c320bba058cd1186a680f6552a292a4/sqlite-2.5.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.sqlite:sqlite-android",
+      "version": "2.5.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/e5dc07ce1a335bcd127c3d04b594dd2a83f61887a5e933327373866cc4edbf30.txt",
+          "sha256": "e5dc07ce1a335bcd127c3d04b594dd2a83f61887a5e933327373866cc4edbf30",
+          "source": "Maven POM androidx.sqlite/sqlite-android/2.5.0/4fb69b47de1fb1392503864401b5ba1f79830b2/sqlite-android-2.5.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.sqlite:sqlite-framework",
+      "version": "2.5.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "POM-only/platform/BOM or metadata-only graph node",
+      "texts": [
+        {
+          "file": "/licenses/texts/51fcf2f5947198fc738527301d4d489a6537fb8947eef47998d981c9e105f197.txt",
+          "sha256": "51fcf2f5947198fc738527301d4d489a6537fb8947eef47998d981c9e105f197",
+          "source": "Maven POM androidx.sqlite/sqlite-framework/2.5.0/af47e11f44997f8dab5096d787bf60976c3c7c9d/sqlite-framework-2.5.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.sqlite:sqlite-framework-android",
+      "version": "2.5.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/8d1f2657347e05d7145990bdc84d091a296a2ce1eccc007c25e71ebaef02ceec.txt",
+          "sha256": "8d1f2657347e05d7145990bdc84d091a296a2ce1eccc007c25e71ebaef02ceec",
+          "source": "Maven POM androidx.sqlite/sqlite-framework-android/2.5.0/6511de844a899fc8e7e1493f1b70d3472bfd28b7/sqlite-framework-android-2.5.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.work:work-runtime-ktx",
+      "version": "2.11.2",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/e23d98c31e5048618b4be584a0e33f30ac427394fbd2c3612dd850b2f1ffa68f.txt",
+          "sha256": "e23d98c31e5048618b4be584a0e33f30ac427394fbd2c3612dd850b2f1ffa68f",
+          "source": "Maven POM androidx.work/work-runtime-ktx/2.11.2/b60acb5b588d941da6a5117674c1aac0745daba1/work-runtime-ktx-2.11.2.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.glance:glance-appwidget-proto",
+      "version": "1.2.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/dc705d28c0ac12716294b8add1543a14d7c768b3d21693a2a22d87a55dfad76a.txt",
+          "sha256": "dc705d28c0ac12716294b8add1543a14d7c768b3d21693a2a22d87a55dfad76a",
+          "source": "Maven POM androidx.glance/glance-appwidget-proto/1.2.0/5bb38b8f8bb299f1afa7b534c4a2476e7fdb0739/glance-appwidget-proto-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.glance:glance-appwidget-external-protobuf",
+      "version": "1.2.0",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/cb812781a9ef84421d706e83ac99ade9acc1793abfb4b8749086c99f999592f2.txt",
+          "sha256": "cb812781a9ef84421d706e83ac99ade9acc1793abfb4b8749086c99f999592f2",
+          "source": "Maven POM androidx.glance/glance-appwidget-external-protobuf/1.2.0/6acc47b9477d844939b1d18ca99a3cb77f20dac3/glance-appwidget-external-protobuf-1.2.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.android.billingclient:billing",
+      "version": "8.0.0",
+      "licenses": [
+        "Android Software Development Kit License"
+      ],
+      "category": "Proprietary/platform service; POM metadata and applicable service terms, not OSS plugin license",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/25904cf39af505f6470994a216b62f78d556c63f39f16ca1fd692e2610bc6a52.txt",
+          "sha256": "25904cf39af505f6470994a216b62f78d556c63f39f16ca1fd692e2610bc6a52",
+          "source": "Maven POM com.android.billingclient/billing/8.0.0/9acf74a1d98adf0a95eb2d2789c6bdb1e8433626/billing-8.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.datatransport:transport-api",
+      "version": "3.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/1537bebd44da2eb7e3be73fc4259e1116f2a68a5305f4fe23c6cea9a6f84f791.txt",
+          "sha256": "1537bebd44da2eb7e3be73fc4259e1116f2a68a5305f4fe23c6cea9a6f84f791",
+          "source": "Maven POM com.google.android.datatransport/transport-api/3.0.0/153cf38690003fe8e553852f791d363324e02df9/transport-api-3.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.datatransport:transport-backend-cct",
+      "version": "3.1.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/42698696ebd5af1eb33f917e582baa416e289a21cd83ee329c255852216b8a78.txt",
+          "sha256": "42698696ebd5af1eb33f917e582baa416e289a21cd83ee329c255852216b8a78",
+          "source": "Maven POM com.google.android.datatransport/transport-backend-cct/3.1.8/30b50332e6459a8373936d6064b42c6d80fc2d85/transport-backend-cct-3.1.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.android.datatransport:transport-runtime",
+      "version": "3.1.8",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/d6ff762251fb35594afe5efe860b5871064e18c0bd1bdb77084e3573f90e4e8f.txt",
+          "sha256": "d6ff762251fb35594afe5efe860b5871064e18c0bd1bdb77084e3573f90e4e8f",
+          "source": "Maven POM com.google.android.datatransport/transport-runtime/3.1.8/75b152503c942438971e378871936f6e915a8fd1/transport-runtime-3.1.8.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.firebase:firebase-encoders",
+      "version": "17.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/423575e3500e9910e3aa83f9d7a6d755b5f76ac591823baf67570fb6ce7ea816.txt",
+          "sha256": "423575e3500e9910e3aa83f9d7a6d755b5f76ac591823baf67570fb6ce7ea816",
+          "source": "Maven POM com.google.firebase/firebase-encoders/17.0.0/860a97137bed444e73ab31478797fa5415eaf564/firebase-encoders-17.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.firebase:firebase-encoders-proto",
+      "version": "16.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/5f5fb74af3fff0e1f961fcb5f3f99267c103b16a23c89b556c8cb4a711a8dcb2.txt",
+          "sha256": "5f5fb74af3fff0e1f961fcb5f3f99267c103b16a23c89b556c8cb4a711a8dcb2",
+          "source": "Maven POM com.google.firebase/firebase-encoders-proto/16.0.0/3b39278f0d341e0045dc42c86133175d5b6c8c3b/firebase-encoders-proto-16.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "javax.inject:javax.inject",
+      "version": "1",
+      "licenses": [
+        "Apache-2.0 (JSR-330 source header; POM lacks license field)"
+      ],
+      "category": "Apache-2.0 (JSR-330 source header; POM lacks license field)",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/943e12b100627804638fa285805a0ab788a680266531e650921ebfe4621a8bfa.txt",
+          "sha256": "943e12b100627804638fa285805a0ab788a680266531e650921ebfe4621a8bfa",
+          "source": "Maven POM javax.inject/javax.inject/1/b8e00a8a0deb0ebef447570e37ff8146ccd92cbe/javax.inject-1.pom"
+        },
+        {
+          "file": "/licenses/texts/f41a532b1c445ab9c62cf862d5e419f76eff97f933355c553a797db9e809d8fb.txt",
+          "sha256": "f41a532b1c445ab9c62cf862d5e419f76eff97f933355c553a797db9e809d8fb",
+          "source": "Existing audited JSR-330 Apache-2.0 source header"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.google.firebase:firebase-encoders-json",
+      "version": "18.0.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/3a7d59795a799683afa6435931066c5bb634adfebd2883a08b4765f38cdd3ea1.txt",
+          "sha256": "3a7d59795a799683afa6435931066c5bb634adfebd2883a08b4765f38cdd3ea1",
+          "source": "Maven POM com.google.firebase/firebase-encoders-json/18.0.0/b2d4da0cbd5f4b53da51d5aaa25011da98e4e198/firebase-encoders-json-18.0.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.documentfile:documentfile",
+      "version": "1.1.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/f3d68f5cc51f74d5415eefa617b5e6539aa89a941525762940a812e78415e4a8.txt",
+          "sha256": "f3d68f5cc51f74d5415eefa617b5e6539aa89a941525762940a812e78415e4a8",
+          "source": "Maven POM androidx.documentfile/documentfile/1.1.0/d6dc1afd6e510b25b173e925c7759c2595cf8510/documentfile-1.1.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "androidx.browser:browser",
+      "version": "1.9.0",
+      "licenses": [
+        "The Apache Software License, Version 2.0"
+      ],
+      "category": "",
+      "kind": "binary AAR/JAR",
+      "texts": [
+        {
+          "file": "/licenses/texts/49a0f19913eb6b5a8bca0017ad6379aad87cf0a03da897233dfe6380e48485d7.txt",
+          "sha256": "49a0f19913eb6b5a8bca0017ad6379aad87cf0a03da897233dfe6380e48485d7",
+          "source": "Maven POM androidx.browser/browser/1.9.0/fb6161de6c8433d6d959e83f314f5d1adb06bdda/browser-1.9.0.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Android",
+      "name": "com.android.tools:desugar_jdk_libs",
+      "version": "2.1.4",
+      "licenses": [
+        "GNU General Public License, version 2, with the Classpath Exception"
+      ],
+      "category": "GPL-2.0 with Classpath Exception; existing Legal notice retained",
+      "kind": "coreLibraryDesugaring",
+      "texts": [
+        {
+          "file": "/licenses/texts/0c0c8e1970349bf3572bf24551ee677665690203704fbb16b367d3a375961f30.txt",
+          "sha256": "0c0c8e1970349bf3572bf24551ee677665690203704fbb16b367d3a375961f30",
+          "source": "Maven POM com.android.tools/desugar_jdk_libs/2.1.4/d5a63026b6fce902129b59b821dd41d61cb175f1/desugar_jdk_libs-2.1.4.pom"
+        }
+      ]
+    },
+    {
+      "ecosystem": "iOS",
+      "name": "cwlcatchexception",
+      "version": "2.2.1",
+      "licenses": [
+        "ISC"
+      ],
+      "category": "Open source utility",
+      "url": "https://github.com/mattgallagher/CwlCatchException",
+      "texts": [
+        {
+          "file": "/licenses/texts/740b29806531fef266b70da0cf18edf5feb981a5f50f97cc5974f8a360a4ad30.txt",
+          "sha256": "740b29806531fef266b70da0cf18edf5feb981a5f50f97cc5974f8a360a4ad30",
+          "source": "cwlcatchexception@2.2.1/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "ecosystem": "iOS",
+      "name": "google-maps-ios-utils",
+      "version": "6.1.3",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "Open source utility",
+      "url": "https://github.com/googlemaps/google-maps-ios-utils",
+      "texts": [
+        {
+          "file": "/licenses/texts/73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68.txt",
+          "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+          "source": "google-maps-ios-utils@6.1.3/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "iOS",
+      "name": "ios-maps-sdk",
+      "version": "10.15.0",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "category": "Google Maps SDK binary/platform service subject to Google Maps Platform agreement; Apache-2.0 repository license covers integration source, not a blanket OSS license for Google Maps services",
+      "url": "https://github.com/googlemaps/ios-maps-sdk",
+      "texts": [
+        {
+          "file": "/licenses/texts/f9946796a8a5bd5981565142fa42e3b0cc36aef6f80e86beaf5905b3c0fef1b5.txt",
+          "sha256": "f9946796a8a5bd5981565142fa42e3b0cc36aef6f80e86beaf5905b3c0fef1b5",
+          "source": "ios-maps-sdk@10.15.0/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "SDK",
+      "name": "Dart SDK",
+      "version": "3.12.0",
+      "licenses": [
+        "BSD-3-Clause + bundled notices"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/2cfa3ee8e7512e6d44c854b986510810fadc815f93f890373b3a81c1b6ccd256.txt",
+          "sha256": "2cfa3ee8e7512e6d44c854b986510810fadc815f93f890373b3a81c1b6ccd256",
+          "source": "bin/cache/dart-sdk/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Assets",
+      "name": "Roboto-Bold.ttf",
+      "version": "Version 2.137; 2017",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1c6c10bb997ff612177b0d1ce63f28205b420751e947e183bb30eb6e7544ed77.txt",
+          "sha256": "1c6c10bb997ff612177b0d1ce63f28205b420751e947e183bb30eb6e7544ed77",
+          "source": "Exact font name table (copyright/version/license)"
+        },
+        {
+          "file": "/licenses/texts/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Assets",
+      "name": "Roboto-Regular.ttf",
+      "version": "Version 2.137; 2017",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/1c6c10bb997ff612177b0d1ce63f28205b420751e947e183bb30eb6e7544ed77.txt",
+          "sha256": "1c6c10bb997ff612177b0d1ce63f28205b420751e947e183bb30eb6e7544ed77",
+          "source": "Exact font name table (copyright/version/license)"
+        },
+        {
+          "file": "/licenses/texts/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "source": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Assets",
+      "name": "SpoqaHanSansNeo-Regular.ttf",
+      "version": "Version 1.100",
+      "licenses": [
+        "OFL-1.1"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/f83a3e30a4f80b00b96a9562eddeaa6364c21c5913304c07b179a36c95505ff2.txt",
+          "sha256": "f83a3e30a4f80b00b96a9562eddeaa6364c21c5913304c07b179a36c95505ff2",
+          "source": "Exact font name table (copyright/version/license)"
+        },
+        {
+          "file": "/licenses/texts/279753543734e7a1846e3cb3f80d4dcdcc91f49c436411adaba82e3913c61cde.txt",
+          "sha256": "279753543734e7a1846e3cb3f80d4dcdcc91f49c436411adaba82e3913c61cde",
+          "source": "https://github.com/spoqa/spoqa-han-sans/blob/main/LICENSE"
+        }
+      ]
+    },
+    {
+      "ecosystem": "Assets",
+      "name": "Material Icons",
+      "version": "3.44.0 SDK asset",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "texts": [
+        {
+          "file": "/licenses/texts/be698262aecd042c0de6f886cc0af622f8def446462026992cc530275d8a9e74.txt",
+          "sha256": "be698262aecd042c0de6f886cc0af622f8def446462026992cc530275d8a9e74",
+          "source": "Flutter SDK material_fonts/MaterialIcons_LICENSE.txt"
+        },
+        {
+          "file": "/licenses/texts/de44d9c96d9d228d075238beec2fe1249feac42164c4b1ff39c43434fddd45a5.txt",
+          "sha256": "de44d9c96d9d228d075238beec2fe1249feac42164c4b1ff39c43434fddd45a5",
+          "source": "Material Icons attribution and subset disclosure"
+        }
+      ]
+    }
+  ]
+}
