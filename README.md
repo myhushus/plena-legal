@@ -12,11 +12,12 @@ Primary URLs:
 
 Current Privacy Policy version: 1.2
 Privacy Policy effective date: October 24, 2026
-Terms / Licenses version: 1.0
+Terms version: 1.1
+Licenses version: 1.0
 Original legal effective date: September 20, 2026
 
 Languages:
 - App/legal core: Korean, English
-- Spanish legal translation: Privacy v1.2 and Terms v1.0 prepared on a feature branch; Licenses translation waits for a refreshed current dependency inventory.
+- Spanish legal translation: Privacy v1.2 and Terms v1.1 prepared on a feature branch; Licenses translation waits for a refreshed current dependency inventory.
 
 Contact: plena@meroviq.com
