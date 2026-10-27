@@ -24,11 +24,11 @@ for f,page in pages.items():
   if not dest.exists():errors.append(f'{f.relative_to(P)}: missing {link}')
   elif u.fragment and dest.suffix=='.html' and u.fragment not in pages[dest].ids:errors.append(f'Bad fragment {link}')
 for kind,version,sections in [('privacy','1.2',15),('terms','1.1',17),('licenses','1.1',9)]:
- for lang in ['ko','en','es']:
+ for lang in ['ko','en','es','fr']:
   f=P/f'{kind}/{lang}/v{version}/index.html';s=f.read_text();page=pages[f]
   if page.lang!=lang:errors.append('Wrong lang '+str(f))
   if len(re.findall(r'<h2>',s))!=sections:errors.append('Section count '+str(f))
-  for target in ['ko','en','es']:
+  for target in ['ko','en','es','fr']:
    if f'/{kind}/{target}/v{version}/' not in page.links:errors.append('Missing language '+str(f))
   for forbidden in ['OpenStreetMap','flutter_map','latlong2','2.12.0']:
    if forbidden in s:errors.append('Obsolete '+forbidden+' '+str(f))
@@ -56,7 +56,7 @@ for r in records:
  for t in r['texts']:
   f=P/t['file'].lstrip('/');assert hashlib.sha256(f.read_bytes()).hexdigest()==t['sha256'];refs.add(f.resolve())
 assert refs==set(f.resolve() for f in (P/'licenses/texts').glob('*.txt')),'Unreferenced text files'
-for lang in ['ko','en','es']:
+for lang in ['ko','en','es','fr']:
  s=(P/f'licenses/{lang}/v1.1/index.html').read_text()
  for r in records:
   if html.escape(r['name']) not in s:errors.append('Missing component '+r['name'])
@@ -65,5 +65,24 @@ for lang in ['ko','en','es']:
  assert len(rows)==len(records)
 assert (P/'CNAME').read_text().strip()=='plena.meroviq.com'
 assert not (P/'terms/es/v1.0/index.html').exists()
+# Translation-only release: policy dates, body structure and prior-language text stay stable.
+for kind,version,date in [('privacy','1.2','24 octobre 2026'),('terms','1.1','26 octobre 2026'),('licenses','1.1','26 octobre 2026')]:
+ current=P/f'{kind}/fr/v{version}/index.html';translated=current.read_text()
+ assert date in translated, 'French policy effective date changed'
+ if kind!='licenses':
+  def body(text):return text[text.index('<div class="notice">'):text.index('<footer>')]
+  original=(P/f'{kind}/en/v{version}/index.html').read_text()
+  for tag in ['h2','p','li','tr','th','td']:
+   assert len(re.findall('<'+tag+r'(?:>|\s)',body(original)))==len(re.findall('<'+tag+r'(?:>|\s)',body(translated))), (kind,tag)
+ for lang in ['ko','en','es']:
+  path=f'public/{kind}/{lang}/v{version}/index.html'
+  before=subprocess.check_output(['git','show','f23ca0fcb675356eb3c85641b12498308b30b4cb:'+path],cwd=R).decode()
+  after=(R/path).read_text()
+  # Only language navigation may differ in existing documents.
+  strip=lambda v:re.sub(r'<nav aria-label="Language[^>]*>.*?</nav>', '', v, flags=re.S)
+  assert strip(before)==strip(after), 'Existing legal content changed: '+path
+for path in ['public/licenses/data/inventory.json','public/CNAME']:
+ assert (R/path).read_bytes()==subprocess.check_output(['git','show','f23ca0fcb675356eb3c85641b12498308b30b4cb:'+path],cwd=R)
+
 if errors:raise SystemExit('\n'.join(errors))
-print(f'PASS: {len(pages)} HTML pages, links, KO/EN/ES sections, 265 inventory records, {len(refs)} original text hashes, CNAME and published archives')
+print(f'PASS: {len(pages)} HTML pages, links, KO/EN/ES/FR sections, 265 inventory records, {len(refs)} original text hashes, CNAME and published archives')
