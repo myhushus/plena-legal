@@ -6,3 +6,6 @@ main{max-width:900px;margin:0 auto;padding:32px 20px 64px}nav,.meta,.notice,foot
 /* Long legal tables remain readable without widening the mobile page. */
 th,td,p,.notice{overflow-wrap:anywhere}th,td{min-width:0}table{table-layout:fixed}.table-scroll{overflow-x:auto;max-width:100%;margin:16px 0}.table-scroll table{min-width:720px;margin:0}.table-scroll:focus-visible,a:focus-visible{outline:2px solid var(--link);outline-offset:3px}nav[aria-label^="Language /"] a{padding:6px 4px}nav a[aria-current="page"]{font-weight:700;text-decoration-thickness:2px}
 caption{text-align:left;color:var(--muted);padding:8px 0}
+
+/* Long translated headings and links must wrap at accessible text sizes. */
+h1,h2,h3,li,nav a{overflow-wrap:anywhere}nav a{min-width:0;max-width:100%}
