@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Render versioned KO/EN/ES/FR/PT/DE/JA notices from the audited, normalized inventory.
+"""Render versioned KO/EN/ES/FR/PT/DE/JA/ID notices from the audited, normalized inventory.
 The input was imported from the user-supplied 2026-10-26 inventory, not resolved
 again here. Original upstream texts are content-addressed and shared by all pages.
 """
@@ -19,11 +19,13 @@ C['de']=json.loads((ROOT/'scripts/licenses-de.json').read_text())
 assert set(C['de']) == set(C['en']), 'German notice schema mismatch'
 C['ja']=json.loads((ROOT/'scripts/licenses-ja.json').read_text())
 assert set(C['ja']) == set(C['en']), 'Japanese notice schema mismatch'
+C['id']=json.loads((ROOT/'scripts/licenses-id.json').read_text())
+assert set(C['id']) == set(C['en']), 'Indonesian notice schema mismatch'
 VERSIONS={'privacy':'1.2','terms':'1.1','licenses':'1.1'}
 def nav(lang):
  c=C[lang];return '<nav aria-label="Plena"><a href="/">Plena Legal</a>'+''.join(f'<a href="/{kind}/{lang}/v{VERSIONS[kind]}/">{label}</a>' for kind,label in zip(VERSIONS,c['nav']))+'</nav>'
 def langs(kind,version,lang):
- return '<nav aria-label="Language / 언어 / Idioma / Langue">'+''.join(f'<a href="/{kind}/{l}/v{version}/" lang="{l}" hreflang="{l}"'+(' aria-current="page"' if l==lang else '')+'>'+name+'</a>' for l,name in [('ko','한국어'),('en','English'),('es','Español'),('fr','Français'),('pt','Português (Brasil)'),('de','Deutsch'),('ja','日本語')])+'</nav>'
+ return '<nav aria-label="Language / 언어 / Idioma / Langue">'+''.join(f'<a href="/{kind}/{l}/v{version}/" lang="{l}" hreflang="{l}"'+(' aria-current="page"' if l==lang else '')+'>'+name+'</a>' for l,name in [('ko','한국어'),('en','English'),('es','Español'),('fr','Français'),('pt','Português (Brasil)'),('de','Deutsch'),('ja','日本語'),('id','Bahasa Indonesia')])+'</nav>'
 def table(rows,c):
  s='<div class="table-scroll" role="region" tabindex="0" aria-label="'+c['tableLabel']+'"><table><caption>'+c['tableLabel']+'</caption><thead><tr>'+''.join('<th scope="col">'+x+'</th>' for x in c['headers'])+'</tr></thead><tbody>'
  for r in rows:
@@ -59,6 +61,8 @@ def render(lang):
   page=page.replace('>Google Maps Platform Terms<','>Nutzungsbedingungen der Google Maps Platform<').replace('>Google Privacy Policy<','>Datenschutzerklärung von Google<')
  if lang=='ja':
   page=page.replace('>Google Maps Platform Terms<','>Google Maps Platform利用規約<').replace('>Google Privacy Policy<','>Googleプライバシーポリシー<')
+ if lang=='id':
+  page=page.replace('>Google Maps Platform Terms<','>Persyaratan Google Maps Platform<').replace('>Google Privacy Policy<','>Kebijakan Privasi Google<')
  return page
 for lang in C:
  d=P/f'licenses/{lang}/v1.1';d.mkdir(parents=True,exist_ok=True);(d/'index.html').write_text(render(lang))
