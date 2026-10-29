@@ -24,11 +24,11 @@ for f,page in pages.items():
   if not dest.exists():errors.append(f'{f.relative_to(P)}: missing {link}')
   elif u.fragment and dest.suffix=='.html' and u.fragment not in pages[dest].ids:errors.append(f'Bad fragment {link}')
 for kind,version,sections in [('privacy','1.2',15),('terms','1.1',17),('licenses','1.1',9)]:
- for lang in ['ko','en','es','fr','pt','de','ja','id']:
+ for lang in ['ko','en','es','fr','pt','de','ja','id','hi']:
   f=P/f'{kind}/{lang}/v{version}/index.html';s=f.read_text();page=pages[f]
   if page.lang!=('pt-BR' if lang=='pt' else lang):errors.append('Wrong lang '+str(f))
   if len(re.findall(r'<h2>',s))!=sections:errors.append('Section count '+str(f))
-  for target in ['ko','en','es','fr','pt','de','ja','id']:
+  for target in ['ko','en','es','fr','pt','de','ja','id','hi']:
    if f'/{kind}/{target}/v{version}/' not in page.links:errors.append('Missing language '+str(f))
   for forbidden in ['OpenStreetMap','flutter_map','latlong2','2.12.0']:
    if forbidden in s:errors.append('Obsolete '+forbidden+' '+str(f))
@@ -56,7 +56,7 @@ for r in records:
  for t in r['texts']:
   f=P/t['file'].lstrip('/');assert hashlib.sha256(f.read_bytes()).hexdigest()==t['sha256'];refs.add(f.resolve())
 assert refs==set(f.resolve() for f in (P/'licenses/texts').glob('*.txt')),'Unreferenced text files'
-for lang in ['ko','en','es','fr','pt','de','ja','id']:
+for lang in ['ko','en','es','fr','pt','de','ja','id','hi']:
  s=(P/f'licenses/{lang}/v1.1/index.html').read_text()
  for r in records:
   if html.escape(r['name']) not in s:errors.append('Missing component '+r['name'])
@@ -147,5 +147,19 @@ for kind,version,date in [('privacy','1.2','24 Oktober 2026'),('terms','1.1','26
   strip=lambda s:re.sub(r'<nav aria-label="Language[^>]*>.*?</nav>','',s,flags=re.S)
   assert strip(before)==strip((R/path).read_text()),path
 
+# Hindi translation preserves all eight previous bodies and source structure.
+for kind,version,date in [('privacy','1.2','24 अक्टूबर 2026'),('terms','1.1','26 अक्टूबर 2026'),('licenses','1.1','26 अक्टूबर 2026')]:
+ translated=(P/f'{kind}/hi/v{version}/index.html').read_text()
+ assert date in translated
+ if kind!='licenses':
+  original=(P/f'{kind}/en/v{version}/index.html').read_text()
+  body=lambda s:s[s.index('<div class="notice">'):s.index('<footer>')]
+  for tag in ['h2','p','li','tr','th','td']:
+   assert len(re.findall('<'+tag+r'(?:>|\s)',body(original)))==len(re.findall('<'+tag+r'(?:>|\s)',body(translated))), (kind,tag)
+ for lang in ['ko','en','es','fr','pt','de','ja','id']:
+  path=f'public/{kind}/{lang}/v{version}/index.html'
+  before=subprocess.check_output(['git','show','5ab8c3c:'+path],cwd=R).decode()
+  strip=lambda s:re.sub(r'<nav aria-label="Language[^>]*>.*?</nav>','',s,flags=re.S)
+  assert strip(before)==strip((R/path).read_text()),path
 if errors:raise SystemExit('\n'.join(errors))
-print(f'PASS: {len(pages)} HTML pages, links, KO/EN/ES/FR/PT/DE/JA/ID sections, 265 inventory records, {len(refs)} original text hashes, CNAME and published archives')
+print(f'PASS: {len(pages)} HTML pages, links, KO/EN/ES/FR/PT/DE/JA/ID/HI sections, 265 inventory records, {len(refs)} original text hashes, CNAME and published archives')
