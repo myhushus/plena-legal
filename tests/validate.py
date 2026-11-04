@@ -24,11 +24,11 @@ for f,page in pages.items():
   if not dest.exists():errors.append(f'{f.relative_to(P)}: missing {link}')
   elif u.fragment and dest.suffix=='.html' and u.fragment not in pages[dest].ids:errors.append(f'Bad fragment {link}')
 for kind,version,sections in [('privacy','1.2',15),('terms','1.1',17),('licenses','1.1',9)]:
- for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te']:
+ for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
   f=P/f'{kind}/{lang}/v{version}/index.html';s=f.read_text();page=pages[f]
-  if page.lang!=({'pt':'pt-BR','bn':'bn-BD','mr':'mr-IN','te':'te-IN'}.get(lang,lang)):errors.append('Wrong lang '+str(f))
+  if page.lang!=({'pt':'pt-BR','bn':'bn-BD','mr':'mr-IN','te':'te-IN','ta':'ta-IN'}.get(lang,lang)):errors.append('Wrong lang '+str(f))
   if len(re.findall(r'<h2>',s))!=sections:errors.append('Section count '+str(f))
-  for target in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te']:
+  for target in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
    if f'/{kind}/{target}/v{version}/' not in page.links:errors.append('Missing language '+str(f))
   for forbidden in ['OpenStreetMap','flutter_map','latlong2','2.12.0']:
    if forbidden in s:errors.append('Obsolete '+forbidden+' '+str(f))
@@ -56,7 +56,7 @@ for r in records:
  for t in r['texts']:
   f=P/t['file'].lstrip('/');assert hashlib.sha256(f.read_bytes()).hexdigest()==t['sha256'];refs.add(f.resolve())
 assert refs==set(f.resolve() for f in (P/'licenses/texts').glob('*.txt')),'Unreferenced text files'
-for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te']:
+for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
  s=(P/f'licenses/{lang}/v1.1/index.html').read_text()
  for r in records:
   if html.escape(r['name']) not in s:errors.append('Missing component '+r['name'])
@@ -208,5 +208,22 @@ for kind,version,date in [('privacy','1.2','24 అక్టోబర్ 2026'),(
   strip=lambda s:re.sub(r'<nav aria-label="Language[^>]*>.*?</nav>','',s,flags=re.S)
   assert strip(before)==strip((R/path).read_text()),path
 
+# Tamil translation preserves all twelve previous bodies, link targets and policy dates.
+for kind,version,date in [('privacy','1.2','24 அக்டோபர் 2026'),('terms','1.1','26 அக்டோபர் 2026'),('licenses','1.1','26 அக்டோபர் 2026')]:
+ translated=(P/f'{kind}/ta/v{version}/index.html').read_text()
+ assert date in translated
+ if kind!='licenses':
+  original=(P/f'{kind}/en/v{version}/index.html').read_text()
+  body=lambda s:s[s.index('<div class="notice">'):s.index('<footer>')]
+  for tag in ['h2','p','li','tr','th','td']:
+   assert len(re.findall('<'+tag+r'(?:>|\s)',body(original)))==len(re.findall('<'+tag+r'(?:>|\s)',body(translated))), (kind,tag)
+  normalize=lambda links:sorted(link.replace('/ta/','/en/') for link in links)
+  assert normalize(Page(body(original)).links)==normalize(Page(body(translated)).links),(kind,'link meaning parity')
+ for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te']:
+  path=f'public/{kind}/{lang}/v{version}/index.html'
+  before=subprocess.check_output(['git','show','1a49ec4:'+path],cwd=R).decode()
+  strip=lambda s:re.sub(r'<nav aria-label="Language[^>]*>.*?</nav>','',s,flags=re.S)
+  assert strip(before)==strip((R/path).read_text()),path
+
 if errors:raise SystemExit('\n'.join(errors))
-print(f'PASS: {len(pages)} HTML pages, links, KO/EN/ES/FR/PT/DE/JA/ID/HI/BN/MR/TE sections, 265 inventory records, {len(refs)} original text hashes, CNAME and published archives')
+print(f'PASS: {len(pages)} HTML pages, links, KO/EN/ES/FR/PT/DE/JA/ID/HI/BN/MR/TE/TA sections, 265 inventory records, {len(refs)} original text hashes, CNAME and published archives')
