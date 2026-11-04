@@ -4,19 +4,19 @@ Static legal pages for Plena by Meroviq. GitHub Pages deploys `public/` on pushe
 
 | Document | Current version | Effective date | Languages |
 | --- | --- | --- | --- |
-| Privacy | 1.2 | October 24, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN |
-| Terms | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN |
-| Licenses | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN |
+| Privacy | 1.2 | October 24, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN |
+| Terms | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN |
+| Licenses | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN |
 
 Stable public URLs: https://plena.meroviq.com/privacy, https://plena.meroviq.com/terms, https://plena.meroviq.com/licenses.
-Entry pages use the browser language (`ko`, `es`, `fr`, `pt`, `de`, `ja`, `id`, `hi`, `bn`, `mr`, otherwise `en`). `?lang=id` (or `ko` / `en` / `es` / `fr` / `pt` / `de` / `ja` / `hi` / `bn` / `mr`) selects a language; `?choose` leaves the accessible manual selector visible. Translated document links remain in the selected language. Previous published Privacy 1.0/1.1 and Terms 1.0 pages are unchanged; the original bilingual Licenses 1.0 page is preserved at `/licenses/v1.0/`. The unpublished Spanish Terms 1.0 draft was superseded by 1.1 and removed.
+Entry pages use the browser language (`ko`, `es`, `fr`, `pt`, `de`, `ja`, `id`, `hi`, `bn`, `mr`, `te`, otherwise `en`). `?lang=id` (or `ko` / `en` / `es` / `fr` / `pt` / `de` / `ja` / `hi` / `bn` / `mr` / `te`) selects a language; `?choose` leaves the accessible manual selector visible. Translated document links remain in the selected language. Previous published Privacy 1.0/1.1 and Terms 1.0 pages are unchanged; the original bilingual Licenses 1.0 page is preserved at `/licenses/v1.0/`. The unpublished Spanish Terms 1.0 draft was superseded by 1.1 and removed.
 
 ## Dependency baseline
 
 App HEAD: `35596b94258d3d7c6b6e628685fc4c53a178656c`.
 Audit: October 26, 2026. User-supplied `DEPENDENCY_INVENTORY.md` and `inventory.json` from `plena-spanish-integration-20261026/dependency-inventory` are the dependency source of truth. No app repository files are modified by this site.
 
-`public/licenses/data/inventory.json` is the normalized runtime/native inventory (134 Dart runtime entries, 123 Android entries including desugaring, three Swift packages), plus audited SDK/font notices. Original texts are deduplicated under `public/licenses/texts/` and keep content SHA-256 filenames. Fonts reused from the existing Legal audit were accepted only after matching exact Plena font hashes. `scripts/render-licenses.py` regenerates the eleven Licenses 1.1 pages from that data. Do not translate upstream license originals or relabel Google SDK binaries as open-source Flutter plugins.
+`public/licenses/data/inventory.json` is the normalized runtime/native inventory (134 Dart runtime entries, 123 Android entries including desugaring, three Swift packages), plus audited SDK/font notices. Original texts are deduplicated under `public/licenses/texts/` and keep content SHA-256 filenames. Fonts reused from the existing Legal audit were accepted only after matching exact Plena font hashes. `scripts/render-licenses.py` regenerates the twelve Licenses 1.1 pages from that data. Do not translate upstream license originals or relabel Google SDK binaries as open-source Flutter plugins.
 
 Validation: `python3 tests/validate.py`. It checks local links, dates, versions, inventory parity and original text hashes; browser locale routing, mobile layout, public HTTP and Pages deployment are also checked before completion.
 
@@ -53,3 +53,7 @@ Privacy 1.2, Terms 1.1 and Licenses 1.1 add Bangladeshi Bengali at `/privacy/bn/
 ## Marathi translation (November 4, 2026)
 
 Privacy 1.2, Terms 1.1 and Licenses 1.1 add Marathi at /privacy/mr/v1.2/, /terms/mr/v1.1/ and /licenses/mr/v1.1/. HTML language is mr-IN; browser mr / mr-IN and explicit ?lang=mr-IN use the shared Marathi text. Policy versions, effective dates, ten prior document bodies, archives, CNAME, audited inventory and original license texts remain unchanged. No India-specific governing law, obligations or rights are added. The dependency baseline remains app commit 35596b9; this translation does not certify a newer binary. scripts/licenses-mr.json extends the existing notices renderer. App Marathi support and Legal-link integration are separate.
+
+## Telugu translation (November 4, 2026)
+
+Privacy 1.2, Terms 1.1 and Licenses 1.1 add Telugu at /privacy/te/v1.2/, /terms/te/v1.1/ and /licenses/te/v1.1/. HTML language is te-IN; browser te / te-IN and explicit ?lang=te-IN use the shared Telugu text. Existing policy versions, effective dates, eleven prior document bodies, archives, CNAME, audited inventory and original license texts are preserved. No India-specific governing law, obligations or rights are added. The dependency baseline remains app commit 35596b9; this translation does not certify a newer binary. scripts/licenses-te.json reuses the existing renderer. App Telugu support and Legal-link integration are separate.
