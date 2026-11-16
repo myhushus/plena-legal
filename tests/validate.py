@@ -23,7 +23,7 @@ for f,page in pages.items():
   if dest.is_dir():dest=dest/'index.html'
   if not dest.exists():errors.append(f'{f.relative_to(P)}: missing {link}')
   elif u.fragment and dest.suffix=='.html' and u.fragment not in pages[dest].ids:errors.append(f'Bad fragment {link}')
-for kind,version,sections in [('privacy','1.2',15),('terms','1.1',17),('licenses','1.1',9)]:
+for kind,version,sections in [('privacy','1.3',15),('terms','1.1',17),('licenses','1.1',9)]:
  for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
   f=P/f'{kind}/{lang}/v{version}/index.html';s=f.read_text();page=pages[f]
   if page.lang!=({'pt':'pt-BR','bn':'bn-BD','mr':'mr-IN','te':'te-IN','ta':'ta-IN'}.get(lang,lang)):errors.append('Wrong lang '+str(f))

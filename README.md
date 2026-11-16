@@ -2,9 +2,9 @@
 
 Static legal pages for Plena by Meroviq. GitHub Pages deploys `public/` on pushes to `main` through `.github/workflows/pages.yml`. CNAME remains `plena.meroviq.com`.
 
-| Document | Current version | Effective date | Languages |
+| Document | Current version | Document date | Languages |
 | --- | --- | --- | --- |
-| Privacy | 1.2 | October 24, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
+| Privacy | 1.3 | Updated November 16, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 | Terms | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 | Licenses | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 
@@ -61,3 +61,7 @@ Privacy 1.2, Terms 1.1 and Licenses 1.1 add Telugu at /privacy/te/v1.2/, /terms/
 ## Tamil translation (November 4, 2026)
 
 Privacy 1.2, Terms 1.1 and Licenses 1.1 add Tamil at `/privacy/ta/v1.2/`, `/terms/ta/v1.1/` and `/licenses/ta/v1.1/`. HTML language is `ta-IN`; browser `ta`, `ta-IN`, `ta-LK`, `ta-SG`, `ta-MY` and explicit `?lang=ta-IN` use the shared Tamil text, without creating jurisdiction-specific editions. Existing policy versions, effective dates, twelve prior document bodies, archives, CNAME, audited inventory and original license texts are preserved. No new jurisdiction, obligations or rights are added. The dependency baseline remains app commit `35596b9`; this translation does not certify a newer binary. `scripts/licenses-ta.json` reuses the existing renderer. App Tamil support and actual in-app Legal-link verification are separate.
+
+## Privacy 1.3 (November 16, 2026)
+
+Section 11 describes backup creation and restoration in Plena for iOS 1.0.0. The existing privacy URL and language selector resolve to 1.3 in all thirteen languages. The version 1.2 archives remain available at their published URLs.
