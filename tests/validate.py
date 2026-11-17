@@ -23,7 +23,7 @@ for f,page in pages.items():
   if dest.is_dir():dest=dest/'index.html'
   if not dest.exists():errors.append(f'{f.relative_to(P)}: missing {link}')
   elif u.fragment and dest.suffix=='.html' and u.fragment not in pages[dest].ids:errors.append(f'Bad fragment {link}')
-for kind,version,sections in [('privacy','1.3',15),('terms','1.1',17),('licenses','1.1',9)]:
+for kind,version,sections in [('privacy','1.3',15),('terms','1.2',17),('licenses','1.1',9)]:
  for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
   f=P/f'{kind}/{lang}/v{version}/index.html';s=f.read_text();page=pages[f]
   if page.lang!=({'pt':'pt-BR','bn':'bn-BD','mr':'mr-IN','te':'te-IN','ta':'ta-IN'}.get(lang,lang)):errors.append('Wrong lang '+str(f))
@@ -33,6 +33,13 @@ for kind,version,sections in [('privacy','1.3',15),('terms','1.1',17),('licenses
   for forbidden in ['OpenStreetMap','flutter_map','latlong2','2.12.0']:
    if forbidden in s:errors.append('Obsolete '+forbidden+' '+str(f))
   if kind!='licenses' and 'Google Places API' not in s:errors.append('Missing Places disclosure')
+ if kind == 'terms':
+  for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
+   path = P / f'terms/{lang}/v{version}/index.html'
+   current = pages[path]
+   assert 'google-maps-terms' in current.ids, path
+   assert 'https://maps.google.com/help/terms_maps/' in current.links, path
+   assert 'https://policies.google.com/privacy' in current.links, path
  if kind!='licenses':
   for lang in ['ko','en']:
    # Previously published versions are byte-for-byte preserved.

@@ -5,7 +5,7 @@ Static legal pages for Plena by Meroviq. GitHub Pages deploys `public/` on pushe
 | Document | Current version | Document date | Languages |
 | --- | --- | --- | --- |
 | Privacy | 1.3 | Updated November 16, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
-| Terms | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
+| Terms | 1.2 | November 17, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 | Licenses | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 
 Stable public URLs: https://plena.meroviq.com/privacy, https://plena.meroviq.com/terms, https://plena.meroviq.com/licenses.
@@ -65,3 +65,7 @@ Privacy 1.2, Terms 1.1 and Licenses 1.1 add Tamil at `/privacy/ta/v1.2/`, `/term
 ## Privacy 1.3 (November 16, 2026)
 
 Section 11 describes backup creation and restoration in Plena for iOS 1.0.0. The existing privacy URL and language selector resolve to 1.3 in all thirteen languages. The version 1.2 archives remain available at their published URLs.
+
+## Terms 1.2 (November 17, 2026)
+
+The terms identify Google Maps features and content and link to the applicable Google Maps End User Additional Terms of Service and Google Privacy Policy in all thirteen languages. The stable terms URL serves version 1.2. Version 1.1 remains available at its published URLs.
