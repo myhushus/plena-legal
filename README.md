@@ -4,9 +4,9 @@ Static legal pages for Plena by Meroviq. GitHub Pages deploys `public/` on pushe
 
 | Document | Current version | Document date | Languages |
 | --- | --- | --- | --- |
-| Privacy | 1.3 | Updated November 16, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
-| Terms | 1.2 | November 17, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
-| Licenses | 1.1 | October 26, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
+| Privacy | 1.4 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
+| Terms | 1.3 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
+| Licenses | 1.2 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 
 Stable public URLs: https://plena.meroviq.com/privacy, https://plena.meroviq.com/terms, https://plena.meroviq.com/licenses.
 Entry pages use the browser language (`ko`, `es`, `fr`, `pt`, `de`, `ja`, `id`, `hi`, `bn`, `mr`, `te`, `ta`, otherwise `en`). `?lang=id` (or `ko` / `en` / `es` / `fr` / `pt` / `de` / `ja` / `hi` / `bn` / `mr` / `te` / `ta`) selects a language; `?choose` leaves the accessible manual selector visible. Translated document links remain in the selected language. Previous published Privacy 1.0/1.1 and Terms 1.0 pages are unchanged; the original bilingual Licenses 1.0 page is preserved at `/licenses/v1.0/`. The unpublished Spanish Terms 1.0 draft was superseded by 1.1 and removed.
@@ -69,3 +69,7 @@ Section 11 describes backup creation and restoration in Plena for iOS 1.0.0. The
 ## Terms 1.2 (November 17, 2026)
 
 The terms identify Google Maps features and content and link to the applicable Google Maps End User Additional Terms of Service and Google Privacy Policy in all thirteen languages. The stable terms URL serves version 1.2. Version 1.1 remains available at its published URLs.
+
+## Online place search (November 18, 2026)
+
+Privacy 1.4, Terms 1.3 and Licenses 1.2 cover Geoapify-enabled versions in all thirteen languages. The dependency inventory and its audit date are carried forward. Earlier versions retain their published URLs.

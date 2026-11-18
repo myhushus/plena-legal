@@ -23,15 +23,22 @@ for f,page in pages.items():
   if dest.is_dir():dest=dest/'index.html'
   if not dest.exists():errors.append(f'{f.relative_to(P)}: missing {link}')
   elif u.fragment and dest.suffix=='.html' and u.fragment not in pages[dest].ids:errors.append(f'Bad fragment {link}')
-for kind,version,sections in [('privacy','1.3',15),('terms','1.2',17),('licenses','1.1',9)]:
+for kind,version,sections in [('privacy','1.4',15),('terms','1.3',17),('licenses','1.2',9)]:
  for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
   f=P/f'{kind}/{lang}/v{version}/index.html';s=f.read_text();page=pages[f]
   if page.lang!=({'pt':'pt-BR','bn':'bn-BD','mr':'mr-IN','te':'te-IN','ta':'ta-IN'}.get(lang,lang)):errors.append('Wrong lang '+str(f))
   if len(re.findall(r'<h2>',s))!=sections:errors.append('Section count '+str(f))
   for target in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
    if f'/{kind}/{target}/v{version}/' not in page.links:errors.append('Missing language '+str(f))
-  for forbidden in ['OpenStreetMap','flutter_map','latlong2','2.12.0']:
+  for forbidden in ['flutter_map','latlong2','2.12.0']:
    if forbidden in s:errors.append('Obsolete '+forbidden+' '+str(f))
+  required = {
+   'privacy': ['https://www.geoapify.com/privacy-policy/'],
+   'terms': ['https://www.geoapify.com/terms-and-conditions/', 'https://www.geoapify.com/privacy-policy/'],
+   'licenses': ['https://www.geoapify.com/', 'https://www.openstreetmap.org/copyright', 'https://www.whosonfirst.org/docs/licenses/'],
+  }[kind]
+  assert all(url in page.links for url in required), f
+  assert '<time datetime="2026-11-18">' in s and 'Geoapify' in s, f
   if kind!='licenses' and 'Google Places API' not in s:errors.append('Missing Places disclosure')
  if kind == 'terms':
   for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
@@ -64,7 +71,7 @@ for r in records:
   f=P/t['file'].lstrip('/');assert hashlib.sha256(f.read_bytes()).hexdigest()==t['sha256'];refs.add(f.resolve())
 assert refs==set(f.resolve() for f in (P/'licenses/texts').glob('*.txt')),'Unreferenced text files'
 for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
- s=(P/f'licenses/{lang}/v1.1/index.html').read_text()
+ s=(P/f'licenses/{lang}/v1.2/index.html').read_text()
  for r in records:
   if html.escape(r['name']) not in s:errors.append('Missing component '+r['name'])
   if r['version'] not in s:errors.append('Missing version '+r['name'])
