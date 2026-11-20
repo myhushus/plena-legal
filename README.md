@@ -5,7 +5,7 @@ Static legal pages for Plena by Meroviq. GitHub Pages deploys `public/` on pushe
 | Document | Current version | Document date | Languages |
 | --- | --- | --- | --- |
 | Privacy | 1.4 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
-| Terms | 1.3 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
+| Terms | 1.4 | November 20, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 | Licenses | 1.2 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 
 Stable public URLs: https://plena.meroviq.com/privacy, https://plena.meroviq.com/terms, https://plena.meroviq.com/licenses.
@@ -73,3 +73,7 @@ The terms identify Google Maps features and content and link to the applicable G
 ## Online place search (November 18, 2026)
 
 Privacy 1.4, Terms 1.3 and Licenses 1.2 cover Geoapify-enabled versions in all thirteen languages. The dependency inventory and its audit date are carried forward. Earlier versions retain their published URLs.
+
+## Terms 1.4 (November 20, 2026)
+
+Section 7 describes the free features of Plena 1.0.0 (build 13) on Android and iOS. Section 16 identifies the law of the Republic of Korea and preserves mandatory consumer protections and the right to bring a claim locally where applicable. The previous Terms 1.3 remain available in all thirteen languages.

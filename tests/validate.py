@@ -23,7 +23,7 @@ for f,page in pages.items():
   if dest.is_dir():dest=dest/'index.html'
   if not dest.exists():errors.append(f'{f.relative_to(P)}: missing {link}')
   elif u.fragment and dest.suffix=='.html' and u.fragment not in pages[dest].ids:errors.append(f'Bad fragment {link}')
-for kind,version,sections in [('privacy','1.4',15),('terms','1.3',17),('licenses','1.2',9)]:
+for kind,version,sections in [('privacy','1.4',15),('terms','1.4',17),('licenses','1.2',9)]:
  for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
   f=P/f'{kind}/{lang}/v{version}/index.html';s=f.read_text();page=pages[f]
   if page.lang!=({'pt':'pt-BR','bn':'bn-BD','mr':'mr-IN','te':'te-IN','ta':'ta-IN'}.get(lang,lang)):errors.append('Wrong lang '+str(f))
@@ -38,7 +38,14 @@ for kind,version,sections in [('privacy','1.4',15),('terms','1.3',17),('licenses
    'licenses': ['https://www.geoapify.com/', 'https://www.openstreetmap.org/copyright', 'https://www.whosonfirst.org/docs/licenses/'],
   }[kind]
   assert all(url in page.links for url in required), f
-  assert '<time datetime="2026-11-18">' in s and 'Geoapify' in s, f
+  effective = '2026-11-20' if kind == 'terms' else '2026-11-18'
+  assert f'<time datetime="{effective}">' in s and 'Geoapify' in s, f
+  if kind == 'terms':
+   assert f'/terms/{lang}/v1.3/' in page.links, f
+   sections_html = s.split('<h2>')
+   pricing = sections_html[7]
+   assert all(text in pricing for text in ('Android', 'iOS', '1.0.0', '13', 'Plena Pro')), f
+   assert sections_html[16].count('<p>') == 2, f
   if kind!='licenses' and 'Google Places API' not in s:errors.append('Missing Places disclosure')
  if kind == 'terms':
   for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
