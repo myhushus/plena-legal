@@ -5,7 +5,7 @@ Static legal pages for Plena by Meroviq. GitHub Pages deploys `public/` on pushe
 | Document | Current version | Document date | Languages |
 | --- | --- | --- | --- |
 | Privacy | 1.4 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
-| Terms | 1.3 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
+| Terms | 1.4 | November 20, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 | Licenses | 1.2 | November 18, 2026 | KO / EN / ES / FR / PT-BR / DE / JA / ID / HI / BN-BD / MR-IN / TE-IN / TA-IN |
 
 Stable public URLs: https://plena.meroviq.com/privacy, https://plena.meroviq.com/terms, https://plena.meroviq.com/licenses.
