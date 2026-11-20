@@ -42,6 +42,10 @@ for kind,version,sections in [('privacy','1.4',15),('terms','1.4',17),('licenses
   assert f'<time datetime="{effective}">' in s and 'Geoapify' in s, f
   if kind == 'terms':
    assert f'/terms/{lang}/v1.3/' in page.links, f
+   sections_html = s.split('<h2>')
+   pricing = sections_html[7]
+   assert all(text in pricing for text in ('Android', 'iOS', '1.0.0', '13', 'Plena Pro')), f
+   assert sections_html[16].count('<p>') == 2, f
   if kind!='licenses' and 'Google Places API' not in s:errors.append('Missing Places disclosure')
  if kind == 'terms':
   for lang in ['ko','en','es','fr','pt','de','ja','id','hi','bn','mr','te','ta']:
